@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>浙江省轻纺供销有限公司 | ZJQF Supply & Marketing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ════════════════════════════ NAV ════════════════════════════ -->
+<nav id="nav">
+  <a class="logo" href="#hero">
+    <img class="logo-img" src="logo-2.png" alt="浙江轻纺 Light Textile Industry" />
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#hero"     data-i18n="nav_home"></a></li>
+    <li><a href="about.html" data-i18n="nav_about"></a></li>
+    <li><a href="#business" data-i18n="nav_products"></a></li>
+    <li><a href="#dongfang" data-i18n="nav_dongfang"></a></li>
+  </ul>
+
+  <div style="display:flex;align-items:center;gap:20px">
+    <div class="lang-toggle">
+      <button id="btn-cn" class="active" onclick="setLang('cn')">中文</button>
+      <button id="btn-en"               onclick="setLang('en')">EN</button>
+    </div>
+    <div class="hamburger" id="ham" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#hero"     onclick="toggleMenu()" data-i18n="nav_home"></a>
+  <a href="#about"    onclick="toggleMenu()" data-i18n="nav_about"></a>
+  <a href="#business" onclick="toggleMenu()" data-i18n="nav_products"></a>
+  <a href="#dongfang" onclick="toggleMenu()" data-i18n="nav_dongfang"></a>
+</div>
+
+<!-- ════════════════════════════ HERO ════════════════════════════ -->
+<section class="hero" id="hero">
+
+  <div class="slide slide-1 active"><div class="slide-art"></div></div>
+  <div class="slide slide-2"><div class="slide-art"></div></div>
+  <div class="slide slide-3"><div class="slide-art"></div></div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <div class="hero-badge-dot"></div>
+      <span class="hero-badge-text" data-i18n="hero_badge"></span>
+    </div>
+
+    <h1 class="hero-slogan" data-i18n="hero_slogan"></h1>
+    <p  class="hero-sub"    data-i18n="hero_sub"></p>
+
+    <div class="hero-btns">
+      <a class="btn btn-red"   href="#business" data-i18n="hero_btn1"></a>
+      <a class="btn btn-ghost" href="#contact"  data-i18n="hero_btn2"></a>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <div class="scroll-track"></div>
+    <span data-i18n="scroll"></span>
+  </div>
+
+  <div class="hero-nav">
+    <button class="h-arrow" id="prev">&#8592;</button>
+    <div class="h-dots">
+      <div class="h-dot on" data-i="0"></div>
+      <div class="h-dot"    data-i="1"></div>
+      <div class="h-dot"    data-i="2"></div>
+    </div>
+    <button class="h-arrow" id="next">&#8594;</button>
+  </div>
+</section>
+
+<!-- ════════════════════════════ ABOUT ════════════════════════════ -->
+<section class="section about" id="about">
+  <div class="about-inner">
+    <div class="about-text">
+      <div class="tag rv"><span data-i18n="about_tag"></span></div>
+      <h2 class="sec-title rv d1" data-i18n="about_title"></h2>
+      <p  class="sec-en rv d1"   data-i18n="about_title_en"></p>
+
+      <p class="about-lead rv d2" data-i18n="about_lead"></p>
+      <p class="about-lead-en rv d2" data-i18n="about_lead_en"></p>
+
+      <div class="stats rv d3">
+        <div>
+          <div class="stat-num">25<sup>+</sup></div>
+          <div class="stat-lbl" data-i18n="stat1"></div>
+        </div>
+        <div>
+          <div class="stat-num">3</div>
+          <div class="stat-lbl" data-i18n="stat2"></div>
+        </div>
+        <div>
+          <div class="stat-num">∞</div>
+          <div class="stat-lbl" data-i18n="stat3"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-vis rv d2">
+      <div class="about-line-v"></div>
+      <div class="about-frame">
+        <img src="oiltank.JPG" alt="油脂储运基地" style="width:100%;height:100%;object-fit:cover;display:block;" />
+      </div>
+      <div class="about-accent"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════ BUSINESS ════════════════════════════ -->
+<section class="section business" id="business">
+  <div class="tag rv"><span data-i18n="biz_tag"></span></div>
+  <h2 class="sec-title rv d1" data-i18n="biz_title"></h2>
+  <p  class="sec-en rv d1"   data-i18n="biz_title_en"></p>
+
+  <div class="biz-grid">
+
+    <div class="biz-card rv d1">
+      <div class="biz-num">01</div>
+      <svg class="biz-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="26" cy="18" r="11" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M10 44c0-7.732 7.163-14 16-14s16 6.268 16 14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M4 26h5M43 26h5M9 12l3.5 3.5M42 12l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        <circle cx="26" cy="18" r="4" fill="currentColor" opacity=".2"/>
+      </svg>
+      <h3 class="biz-cn" data-i18n="biz1_name"></h3>
+      <p  class="biz-en" data-i18n="biz1_name_en"></p>
+      <p  class="biz-desc" data-i18n="biz1_desc"></p>
+    </div>
+
+    <div class="biz-card rv d2">
+      <div class="biz-num">02</div>
+      <svg class="biz-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="6" y="10" width="24" height="34" rx="2" stroke="currentColor" stroke-width="1.4"/>
+        <rect x="22" y="14" width="24" height="28" rx="2" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M12 20h12M12 27h12M12 34h8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M28 20h12M28 27h8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      <h3 class="biz-cn" data-i18n="biz2_name"></h3>
+      <p  class="biz-en" data-i18n="biz2_name_en"></p>
+      <p  class="biz-desc" data-i18n="biz2_desc"></p>
+    </div>
+
+    <div class="biz-card rv d3">
+      <div class="biz-num">03</div>
+      <svg class="biz-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="26" cy="26" r="18" stroke="currentColor" stroke-width="1.4"/>
+        <circle cx="26" cy="26" r="8"  stroke="currentColor" stroke-width="1.4"/>
+        <circle cx="26" cy="26" r="2"  fill="currentColor"/>
+        <path d="M26 8v6M26 38v6M8 26h6M38 26h6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      <h3 class="biz-cn" data-i18n="biz3_name"></h3>
+      <p  class="biz-en" data-i18n="biz3_name_en"></p>
+      <p  class="biz-desc" data-i18n="biz3_desc"></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════ CONTACT ════════════════════════════ -->
+<section class="section contact" id="contact">
+  <div class="tag rv"><span data-i18n="contact_tag"></span></div>
+  <h2 class="sec-title rv d1" data-i18n="contact_title"></h2>
+  <p  class="sec-en rv d1"   data-i18n="contact_title_en"></p>
+
+  <div class="contact-inner">
+    <div class="c-items">
+
+      <div class="c-item rv d1">
+        <div class="c-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10 2a6 6 0 0 0-6 6c0 4.5 6 12 6 12s6-7.5 6-12a6 6 0 0 0-6-6Zm0 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"/>
+          </svg>
+        </div>
+        <div>
+          <p class="c-lbl"    data-i18n="c_addr_lbl"></p>
+          <p class="c-val"    data-i18n="c_addr_val"></p>
+          <p class="c-val-en" data-i18n="c_addr_en"></p>
+        </div>
+      </div>
+
+      <div class="c-item rv d2">
+        <div class="c-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M6.6 8.8c.9 1.8 2.4 3.3 4.2 4.2l1.4-1.4c.2-.2.5-.3.7-.1 1 .3 2.1.5 3.1.5.4 0 .7.3.7.7V16c0 .4-.3.7-.7.7C7.5 16.7 2.3 11.5 2.3 5.2 2.3 4.8 2.6 4.5 3 4.5h3.5c.4 0 .7.3.7.7 0 1.1.2 2.1.5 3.1.1.2 0 .5-.1.7L6.6 8.8Z"/>
+          </svg>
+        </div>
+        <div>
+          <p class="c-lbl" data-i18n="c_tel_lbl"></p>
+          <p class="c-val"><a href="tel:13588866880">13588866880</a></p>
+        </div>
+      </div>
+
+      <div class="c-item rv d3">
+        <div class="c-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M2 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5Zm2 0 6 5 6-5H4Zm0 2.5V15h12V7.5L10 12 4 7.5Z"/>
+          </svg>
+        </div>
+        <div>
+          <p class="c-lbl" data-i18n="c_email_lbl"></p>
+          <p class="c-val"><a href="mailto:342005491@qq.com">342005491@qq.com</a></p>
+        </div>
+      </div>
+
+      <div class="c-item rv d4" style="border-bottom:none">
+        <div class="c-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M3 18V5l7-3 7 3v13h-4v-4H7v4H3Zm4-7h2V9H7v2Zm4 0h2V9h-2v2Zm-4 3h2v-2H7v2Zm4 0h2v-2h-2v2Z"/>
+          </svg>
+        </div>
+        <div>
+          <p class="c-lbl"    data-i18n="c_company_lbl"></p>
+          <p class="c-val"    data-i18n="c_company_val"></p>
+          <p class="c-val-en" data-i18n="c_company_en"></p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="c-right rv d2">
+      <div class="qr-box">
+        <div class="qr-wrap">
+          <!--
+            替换为真实公众号二维码：
+            <img src="qr.png" width="144" height="144" />
+          -->
+          <svg width="144" height="144" viewBox="0 0 144 144" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0"   y="0"   width="44" height="44" fill="#141414"/>
+            <rect x="4"   y="4"   width="36" height="36" fill="#fff"/>
+            <rect x="8"   y="8"   width="28" height="28" fill="#141414"/>
+            <rect x="12"  y="12"  width="20" height="20" fill="#fff"/>
+            <rect x="16"  y="16"  width="12" height="12" fill="#C41230"/>
+            <rect x="100" y="0"   width="44" height="44" fill="#141414"/>
+            <rect x="104" y="4"   width="36" height="36" fill="#fff"/>
+            <rect x="108" y="8"   width="28" height="28" fill="#141414"/>
+            <rect x="112" y="12"  width="20" height="20" fill="#fff"/>
+            <rect x="116" y="16"  width="12" height="12" fill="#C41230"/>
+            <rect x="0"   y="100" width="44" height="44" fill="#141414"/>
+            <rect x="4"   y="104" width="36" height="36" fill="#fff"/>
+            <rect x="8"   y="108" width="28" height="28" fill="#141414"/>
+            <rect x="12"  y="112" width="20" height="20" fill="#fff"/>
+            <rect x="16"  y="116" width="12" height="12" fill="#C41230"/>
+            <rect x="48" y="12" width="4" height="4" fill="#141414"/>
+            <rect x="56" y="12" width="4" height="4" fill="#141414"/>
+            <rect x="64" y="12" width="4" height="4" fill="#141414"/>
+            <rect x="72" y="12" width="4" height="4" fill="#141414"/>
+            <rect x="80" y="12" width="4" height="4" fill="#141414"/>
+            <rect x="88" y="12" width="4" height="4" fill="#141414"/>
+            <rect x="12" y="48" width="4" height="4" fill="#141414"/>
+            <rect x="12" y="56" width="4" height="4" fill="#141414"/>
+            <rect x="12" y="64" width="4" height="4" fill="#141414"/>
+            <rect x="12" y="72" width="4" height="4" fill="#141414"/>
+            <rect x="12" y="80" width="4" height="4" fill="#141414"/>
+            <rect x="12" y="88" width="4" height="4" fill="#141414"/>
+            <rect x="48" y="48" width="4" height="4" fill="#141414"/>
+            <rect x="56" y="48" width="4" height="4" fill="#141414"/>
+            <rect x="72" y="48" width="4" height="4" fill="#141414"/>
+            <rect x="88" y="48" width="4" height="4" fill="#141414"/>
+            <rect x="48" y="56" width="4" height="4" fill="#141414"/>
+            <rect x="64" y="56" width="4" height="4" fill="#141414"/>
+            <rect x="80" y="56" width="4" height="4" fill="#141414"/>
+            <rect x="88" y="56" width="4" height="4" fill="#141414"/>
+            <rect x="48" y="64" width="4" height="4" fill="#141414"/>
+            <rect x="56" y="64" width="4" height="4" fill="#141414"/>
+            <rect x="64" y="64" width="4" height="4" fill="#141414"/>
+            <rect x="72" y="64" width="4" height="4" fill="#141414"/>
+            <rect x="56" y="72" width="4" height="4" fill="#141414"/>
+            <rect x="72" y="72" width="4" height="4" fill="#141414"/>
+            <rect x="80" y="72" width="4" height="4" fill="#141414"/>
+            <rect x="48" y="80" width="4" height="4" fill="#141414"/>
+            <rect x="64" y="80" width="4" height="4" fill="#141414"/>
+            <rect x="80" y="80" width="4" height="4" fill="#141414"/>
+            <rect x="88" y="80" width="4" height="4" fill="#141414"/>
+            <rect x="56" y="88" width="4" height="4" fill="#141414"/>
+            <rect x="64" y="88" width="4" height="4" fill="#141414"/>
+            <rect x="80" y="88" width="4" height="4" fill="#141414"/>
+            <rect x="104" y="48" width="4" height="4" fill="#141414"/>
+            <rect x="112" y="48" width="4" height="4" fill="#141414"/>
+            <rect x="120" y="56" width="4" height="4" fill="#141414"/>
+            <rect x="128" y="48" width="4" height="4" fill="#141414"/>
+            <rect x="104" y="64" width="4" height="4" fill="#141414"/>
+            <rect x="120" y="64" width="4" height="4" fill="#141414"/>
+            <rect x="112" y="72" width="4" height="4" fill="#141414"/>
+            <rect x="128" y="72" width="4" height="4" fill="#141414"/>
+            <rect x="104" y="80" width="4" height="4" fill="#141414"/>
+            <rect x="112" y="80" width="4" height="4" fill="#141414"/>
+            <rect x="128" y="80" width="4" height="4" fill="#141414"/>
+            <rect x="120" y="88" width="4" height="4" fill="#141414"/>
+            <rect x="48"  y="104" width="4" height="4" fill="#141414"/>
+            <rect x="64"  y="104" width="4" height="4" fill="#141414"/>
+            <rect x="80"  y="104" width="4" height="4" fill="#141414"/>
+            <rect x="88"  y="104" width="4" height="4" fill="#141414"/>
+            <rect x="56"  y="112" width="4" height="4" fill="#141414"/>
+            <rect x="72"  y="112" width="4" height="4" fill="#141414"/>
+            <rect x="88"  y="112" width="4" height="4" fill="#141414"/>
+            <rect x="48"  y="120" width="4" height="4" fill="#141414"/>
+            <rect x="64"  y="120" width="4" height="4" fill="#141414"/>
+            <rect x="80"  y="120" width="4" height="4" fill="#141414"/>
+            <rect x="56"  y="128" width="4" height="4" fill="#141414"/>
+            <rect x="72"  y="128" width="4" height="4" fill="#141414"/>
+            <rect x="88"  y="128" width="4" height="4" fill="#141414"/>
+            <rect x="104" y="104" width="4" height="4" fill="#141414"/>
+            <rect x="120" y="104" width="4" height="4" fill="#141414"/>
+            <rect x="112" y="112" width="4" height="4" fill="#141414"/>
+            <rect x="128" y="112" width="4" height="4" fill="#141414"/>
+            <rect x="104" y="120" width="4" height="4" fill="#141414"/>
+            <rect x="120" y="120" width="4" height="4" fill="#141414"/>
+            <rect x="112" y="128" width="4" height="4" fill="#141414"/>
+            <rect x="128" y="128" width="4" height="4" fill="#141414"/>
+          </svg>
+        </div>
+        <p class="qr-lbl" data-i18n="qr_lbl"></p>
+      </div>
+
+      <div class="brand-band">
+        <h3 data-i18n="brand_name"></h3>
+        <p  data-i18n="brand_name_en"></p>
+        <hr/>
+        <cite data-i18n="brand_slogan"></cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════ FOOTER ════════════════════════════ -->
+<footer>
+  <div class="f-logo"><img src="logo-2.png" alt="浙江轻纺" style="height:44px;width:auto;filter:brightness(0) invert(1);display:block;" /></div>
+  <div class="f-copy" data-i18n="footer_copy"></div>
+  <div class="f-addr" data-i18n="footer_addr"></div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

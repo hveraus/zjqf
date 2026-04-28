@@ -1,0 +1,229 @@
+/* ─── Page Banner ────────────────────────────────────────────────── */
+.page-banner {
+  background: linear-gradient(135deg, var(--ink) 0%, #2a2a2a 100%);
+  padding: 110px 6% 56px;
+  position: relative;
+  overflow: hidden;
+}
+.page-banner::after {
+  content: '';
+  position: absolute;
+  right: 6%; top: 50%; transform: translateY(-50%);
+  width: 320px; height: 320px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.04);
+  box-shadow:
+    0 0 0 60px  rgba(255,255,255,.025),
+    0 0 0 120px rgba(255,255,255,.015);
+}
+.breadcrumb {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12px; letter-spacing: 1.5px;
+  color: rgba(255,255,255,.4);
+  margin-bottom: 22px;
+}
+.breadcrumb a {
+  color: rgba(255,255,255,.4); text-decoration: none;
+  transition: color .3s;
+}
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb span { color: rgba(255,255,255,.2); }
+.red-bar {
+  width: 36px; height: 3px;
+  background: var(--red);
+  margin-bottom: 20px;
+}
+.page-banner h1 {
+  font-size: clamp(28px,4vw,48px);
+  font-weight: 700; color: #fff;
+  letter-spacing: 6px;
+  position: relative; z-index: 1;
+}
+.page-banner > p {
+  font-size: 12px; letter-spacing: 3px;
+  color: rgba(255,255,255,.3);
+  margin-top: 8px; text-transform: uppercase;
+  position: relative; z-index: 1;
+}
+
+/* ─── Section wrapper ────────────────────────────────────────────── */
+.a-section {
+  padding: 88px 6%;
+  background: var(--white);
+}
+.a-section-alt {
+  background: var(--bg);
+}
+.a-section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Section heading */
+.a-head { margin-bottom: 48px; }
+.a-tag {
+  display: flex; align-items: center; gap: 14px;
+  margin-bottom: 8px;
+}
+.a-tag::before {
+  content: ''; width: 28px; height: 1px; background: var(--red);
+}
+.a-tag span {
+  font-size: 22px; font-weight: 700;
+  letter-spacing: 4px; color: var(--ink);
+}
+.a-tag-en {
+  font-size: 11px; letter-spacing: 3px;
+  color: var(--muted); text-transform: uppercase;
+  padding-left: 42px;
+}
+
+/* ─── Intro ──────────────────────────────────────────────────────── */
+.intro-body p {
+  font-size: 15px; line-height: 2.1;
+  color: var(--gray); letter-spacing: .5px;
+  margin-bottom: 24px;
+  text-indent: 2em;
+  max-width: 860px;
+}
+.intro-img {
+  margin: 44px 0;
+  overflow: hidden;
+  border-left: 3px solid var(--red);
+}
+.intro-img-cap {
+  font-size: 11px; letter-spacing: 2px;
+  color: var(--muted); margin-top: 10px;
+  padding-left: 4px;
+}
+
+/* ─── Culture ────────────────────────────────────────────────────── */
+.culture-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+.culture-card {
+  background: var(--white);
+  padding: 40px 36px;
+  position: relative;
+  transition: transform .4s var(--ease), box-shadow .4s var(--ease);
+}
+.culture-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 48px rgba(0,0,0,.07);
+  z-index: 2;
+}
+.culture-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0;
+  width: 3px; height: 100%;
+  background: var(--red);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform .4s var(--ease);
+}
+.culture-card:hover::before { transform: scaleY(1); }
+.culture-label {
+  font-size: 10px; letter-spacing: 3px;
+  color: var(--red); text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.culture-value {
+  font-size: 20px; font-weight: 700;
+  letter-spacing: 3px; color: var(--ink);
+  line-height: 1.7; white-space: pre-line;
+}
+.culture-value-en {
+  font-size: 12px; letter-spacing: 1px;
+  color: var(--muted); margin-top: 10px;
+  line-height: 1.7;
+}
+
+/* ─── Timeline ───────────────────────────────────────────────────── */
+.timeline {
+  position: relative;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 60px;
+}
+.timeline::before {
+  display: none;
+}
+.tl-item {
+  position: relative;
+  padding: 0 0 44px 24px;
+  border-left: 1px solid var(--line);
+}
+.tl-item:last-child { padding-bottom: 0; }
+.tl-dot {
+  position: absolute; left: -6px; top: 6px;
+  width: 12px; height: 12px; border-radius: 50%;
+  border: 2px solid var(--red);
+  background: var(--white);
+  transition: background .3s;
+}
+.tl-item:hover .tl-dot { background: var(--red); }
+.tl-year {
+  font-size: 13px; font-weight: 700;
+  color: var(--red); letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+.tl-text {
+  font-size: 14px; color: var(--gray);
+  letter-spacing: .3px; line-height: 1.8;
+}
+
+/* ─── Contact ────────────────────────────────────────────────────── */
+.contact-panel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+.c-items { display: flex; flex-direction: column; }
+.cp-item {
+  display: flex; gap: 18px; align-items: flex-start;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+}
+.cp-item:first-child { padding-top: 0; }
+.cp-icon {
+  width: 40px; height: 40px;
+  background: var(--red);
+  display: grid; place-items: center;
+  color: #fff; flex-shrink: 0;
+}
+.cp-lbl {
+  font-size: 10px; letter-spacing: 3px;
+  color: var(--muted); text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.cp-val {
+  font-size: 15px; color: var(--ink);
+  letter-spacing: .5px; line-height: 1.7;
+}
+.cp-val a { color: var(--red); text-decoration: none; }
+.cp-val-en { font-size: 12px; color: var(--muted); margin-top: 3px; line-height: 1.6; }
+.map-placeholder {
+  background: var(--white);
+  height: 300px;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 14px; border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px; letter-spacing: 2px;
+}
+
+/* Nav active */
+nav.solid .nav-active { color: var(--red) !important; }
+nav.solid .nav-active::after { width: 100% !important; }
+
+/* ─── Responsive ─────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .culture-grid { grid-template-columns: 1fr; }
+  .timeline { grid-template-columns: 1fr; gap: 0; }
+  .contact-panel-grid { grid-template-columns: 1fr; gap: 40px; }
+  .a-section { padding: 64px 5%; }
+}
