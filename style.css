@@ -645,10 +645,11 @@ footer {
 }
 /* ─── Page Banner ────────────────────────────────────────────────── */
 .page-banner {
-  background: linear-gradient(135deg, var(--ink) 0%, #2a2a2a 100%);
+  background: linear-gradient(135deg, #f8f5f0 0%, #f0e8df 100%);
   padding: 110px 6% 56px;
   position: relative;
   overflow: hidden;
+  border-bottom: 1px solid var(--line);
 }
 .page-banner::after {
   content: '';
@@ -656,23 +657,23 @@ footer {
   right: 6%; top: 50%; transform: translateY(-50%);
   width: 320px; height: 320px;
   border-radius: 50%;
-  border: 1px solid rgba(255,255,255,.04);
+  border: 1px solid rgba(0,0,0,.05);
   box-shadow:
-    0 0 0 60px  rgba(255,255,255,.025),
-    0 0 0 120px rgba(255,255,255,.015);
+    0 0 0 60px  rgba(0,0,0,.025),
+    0 0 0 120px rgba(0,0,0,.015);
 }
 .breadcrumb {
   display: flex; align-items: center; gap: 8px;
   font-size: 12px; letter-spacing: 1.5px;
-  color: rgba(255,255,255,.4);
+  color: var(--muted);
   margin-bottom: 22px;
 }
 .breadcrumb a {
-  color: rgba(255,255,255,.4); text-decoration: none;
+  color: var(--muted); text-decoration: none;
   transition: color .3s;
 }
 .breadcrumb a:hover { color: var(--red); }
-.breadcrumb span { color: rgba(255,255,255,.2); }
+.breadcrumb span { color: var(--line); }
 .red-bar {
   width: 36px; height: 3px;
   background: var(--red);
@@ -680,13 +681,13 @@ footer {
 }
 .page-banner h1 {
   font-size: clamp(28px,4vw,48px);
-  font-weight: 700; color: #fff;
+  font-weight: 700; color: var(--ink);
   letter-spacing: 6px;
   position: relative; z-index: 1;
 }
 .page-banner > p {
   font-size: 12px; letter-spacing: 3px;
-  color: rgba(255,255,255,.3);
+  color: var(--muted);
   margin-top: 8px; text-transform: uppercase;
   position: relative; z-index: 1;
 }
