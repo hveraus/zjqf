@@ -214,17 +214,6 @@ nav.solid .lang-toggle button.active {
   padding: 0 6%;
   padding-top: 68px;
 }
-.hero-text {
-  display: inline-flex; flex-direction: column;
-  transition: background .6s var(--ease), backdrop-filter .6s var(--ease),
-              padding .6s var(--ease);
-}
-.hero.no-overlay .hero-text {
-  background: rgba(255,255,255,.62);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  padding: 36px 40px;
-}
 
 .hero-badge {
   display: inline-flex; align-items: center; gap: 10px;
