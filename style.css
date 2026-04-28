@@ -185,8 +185,8 @@ nav.solid .lang-toggle button.active {
     0 0 0 210px rgba(0,0,0,.01);
 }
 
-/* slide 2 – photo, light overlay to brighten */
-.slide-2 .slide-art { background: rgba(255,255,255,.55); }
+/* slide 2 – photo, no overlay */
+.slide-2 .slide-art { display: none; }
 
 /* slide 3 – radial rings from bottom-left */
 .slide-3 .slide-art::before {
