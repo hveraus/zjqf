@@ -125,6 +125,8 @@ const i18n = {
   tl8: { cn: '公司持续深耕大宗商品贸易领域，业务规模稳步扩大，在动植物油脂、木浆废纸及工业油脂等领域保持行业领先地位。', en: 'Continuing to deepen its presence in bulk commodity trading, with steadily expanding business scale and industry-leading position in animal & vegetable oils, wood pulp & waste paper, and industrial oils.' },
 
   /* About page – contact */
+  c_biz_contact_lbl:  { cn: '业务联系 · Business Contact', en: 'Business Contact' },
+  c_biz_contact_name: { cn: '郭佳慧', en: 'Guo Jiahui' },
   map_hint: { cn: '浙江省杭州市上城区凯旋路445号', en: '445 Kaixuan Rd, Shangcheng District, Hangzhou' },
 };
 
