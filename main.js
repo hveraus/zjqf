@@ -116,12 +116,15 @@ const slides = document.querySelectorAll('.slide');
 const dots   = document.querySelectorAll('.h-dot');
 let cur = 0, timer;
 
+const hero = document.querySelector('.hero');
+
 function goTo(i) {
   slides[cur].classList.remove('active');
   dots[cur].classList.remove('on');
   cur = (i + slides.length) % slides.length;
   slides[cur].classList.add('active');
   dots[cur].classList.add('on');
+  hero.classList.toggle('no-overlay', cur === 1);
 }
 
 function startTimer() { timer = setInterval(() => goTo(cur + 1), 5500); }
