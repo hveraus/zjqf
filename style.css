@@ -173,7 +173,7 @@ nav.solid .hamburger span { background: var(--ink); }
 
 .slide-1 { background: linear-gradient(145deg,#0d1117 0%,#1a2332 35%,#243b55 65%,#1e3a5f 100%); }
 .slide-2 {
-  background-image: url('hero2.jpg');
+  background-image: url('images/hero2.jpg');
   background-size: cover;
   background-position: center;
 }

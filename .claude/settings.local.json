@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(sed -i '' 's|src=\"logo-2.png\"|src=\"images/logo-2.png\"|g' /Users/Ken/zjqf/index.html /Users/Ken/zjqf/about.html)",
+      "Bash(sed -i '' 's|src=\"oiltank.JPG\"|src=\"images/oiltank.JPG\"|g' /Users/Ken/zjqf/index.html)",
+      "Bash(sed -i '' 's|src=\"aboutzjqf.png\"|src=\"images/aboutzjqf.png\"|g' /Users/Ken/zjqf/about.html)",
+      "Bash(sed -i '' 's|url\\('\\\\''hero2.jpg'\\\\''\\)|url\\('\\\\''images/hero2.jpg'\\\\''\\)|g' /Users/Ken/zjqf/style.css)"
     ]
   }
 }
