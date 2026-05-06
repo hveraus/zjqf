@@ -126,7 +126,7 @@ const i18n = {
 
   /* About page – contact */
   c_biz_contact_lbl:  { cn: '业务联系 · Business Contact', en: 'Business Contact' },
-  c_biz_contact_name: { cn: '郭佳慧', en: 'Guo Jiahui' },
+  c_biz_contact_name: { cn: '郭经理', en: 'Manager Guo' },
   map_hint: { cn: '浙江省杭州市上城区凯旋路445号', en: '445 Kaixuan Rd, Shangcheng District, Hangzhou' },
 };
 
