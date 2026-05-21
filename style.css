@@ -499,6 +499,21 @@ nav.solid .lang-toggle button.active {
   font-size: 13.5px; color: var(--gray);
   line-height: 1.85; letter-spacing: .3px;
 }
+.biz-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+.biz-tags span {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--gray);
+  border: 1px solid var(--line);
+  background: var(--bg);
+}
 .biz-desc em {
   display: block;
   font-style: normal; color: var(--muted);

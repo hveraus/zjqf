@@ -34,24 +34,15 @@ const i18n = {
   biz_tag:      { cn: '经营领域 · Business Areas',   en: 'Business Areas · Our Products' },
   biz_title:    { cn: '三大核心业务',                 en: 'Three Core Domains' },
   biz_title_en: { cn: 'Three Core Business Domains',  en: '三大核心经营领域' },
-  biz1_name:    { cn: '动植物油脂',                   en: 'Animal & Vegetable Oils' },
-  biz1_name_en: { cn: 'Animal & Vegetable Oils',       en: '动植物油脂' },
-  biz1_desc: {
-    cn: '专注动植物油脂进出口贸易，涵盖棕榈油、豆油、菜籽油等多类植物油及动物油脂，建立稳定高效的全球采购与销售网络。',
-    en: 'Import & export of animal and vegetable oils — palm, soybean, rapeseed and more — supported by a reliable global procurement and sales network.',
-  },
-  biz2_name:    { cn: '木浆、废纸',            en: 'Wood Pulp & Waste Paper' },
-  biz2_name_en: { cn: 'Wood Pulp & Waste Paper', en: '木浆、废纸' },
-  biz2_desc: {
-    cn: '从事木浆及废纸原料进出口贸易，为造纸行业提供稳定原料供应链，涵盖漂白木浆、分类废纸等多个品类，积极推动绿色循环经济。',
-    en: 'Trading in wood pulp and sorted waste paper for the paper industry, covering bleached pulp and classified waste paper — actively promoting sustainable circular-economy practices.',
-  },
-  biz3_name:    { cn: '工业油脂',               en: 'Industrial Oils & Fats' },
-  biz3_name_en: { cn: 'Industrial Oils & Fats',  en: '工业油脂' },
-  biz3_desc: {
-    cn: '专业从事工业油脂贸易，产品广泛应用于化工、润滑、涂料、橡胶等工业领域，致力为客户提供高品质、稳定供应的工业油脂解决方案。',
-    en: 'Professional industrial-grade oil & fat trading for chemical, lubricant, coating and rubber sectors — delivering quality and reliability to every client.',
-  },
+  biz1_name:    { cn: '油脂油化',                     en: 'Oils & Oleochemicals' },
+  biz1_name_en: { cn: 'Oils & Oleochemicals',          en: '油脂油化' },
+  biz1_tags:    { cn: '<span>棕榈仁油</span><span>棕榈油</span><span>甘油</span><span>脂肪酸</span><span>UCO</span>', en: '<span>Palm Kernel Oil</span><span>Palm Oil</span><span>Glycerin</span><span>Fatty Acid</span><span>UCO</span>' },
+  biz2_name:    { cn: '纸浆',              en: 'Wood Pulp' },
+  biz2_name_en: { cn: 'Wood Pulp',          en: '纸浆' },
+  biz2_tags:    { cn: '<span>虹鱼</span><span>凯利普</span><span>银星</span><span>蓝森林</span>', en: '<span>Arauco</span><span>Clearwater</span><span>Silver Star</span><span>Blue Forest</span>' },
+  biz3_name:    { cn: '饲料与其他',          en: 'Feed & Others' },
+  biz3_name_en: { cn: 'Feed & Others',       en: '饲料与其他' },
+  biz3_tags:    { cn: '<span>棕榈粕</span><span>乳清粉</span><span>木薯淀粉</span>', en: '<span>Palm Kernel Meal</span><span>Whey Powder</span><span>Tapioca Starch</span>' },
 
   /* Contact */
   contact_tag:      { cn: '联系我们 · Contact Us',                    en: 'Contact Us · Get in Touch' },
