@@ -61,6 +61,50 @@ const i18n = {
   brand_name_en: { cn: 'Zhejiang Light Textile Supply & Marketing Co., Ltd.', en: '浙江省轻纺供销有限公司' },
   brand_slogan:  { cn: '追求卓越，永攀高峰<br>Pursuing Excellence · Reaching New Heights', en: 'Pursuing Excellence · Reaching New Heights<br>追求卓越，永攀高峰' },
 
+  /* Dongfang page */
+  df_banner_en:   { cn: 'Dongfang Oils · Company Overview', en: '东方油脂 · 公司概况' },
+  df_s1: { cn: '油脂储罐<br>Oil Tanks', en: 'Oil Storage<br>Tanks' },
+  df_s2: { cn: '立方米总容量<br>Total Capacity (m³)', en: 'Total Capacity<br>in m³' },
+  df_s3: { cn: '吨年接储能力<br>Annual Throughput', en: 'Tonnes Annual<br>Throughput' },
+  df_s4: { cn: '占地面积<br>Land Area', en: 'Land Area<br>in Mu' },
+  df_intro_lbl:    { cn: '公司简介', en: 'Overview' },
+  df_intro_lbl_en: { cn: 'Company Overview', en: '公司简介' },
+  df_p1: {
+    cn: '<strong>嘉兴市乍浦东方油脂有限公司</strong>是由浙江省轻纺供销有限公司控股的全资子公司，1998年收购原日本伊藤忠嘉兴喜爱油脂公司后组建，注册资金1000万元，占地面积52亩，位于浙江省嘉兴市乍浦滨海大道1371号。',
+    en: '<strong>Jiaxing Zhapu Dongfang Oils Co., Ltd.</strong> is a wholly-owned subsidiary of ZJQF, established in 1998 following the acquisition of the former Japanese joint venture Itochu Jiaxing Oils. Registered capital RMB 10 million, occupying 52 mu at 1371 Binhai Avenue, Zhapu, Jiaxing, Zhejiang.',
+  },
+  df_p2: {
+    cn: '公司主要从事动植物油脂及农副产品、纸、纸浆、化工原料等的销售及货运仓储业务，为客户提供一站式仓储接运解决方案。公司是<strong>浙江省首个动植物油脂公用型保税仓库</strong>，年接储油脂能力在50万吨以上，是国内最具规模的油脂储运企业之一。',
+    en: 'The company specialises in trading and logistics for animal & vegetable oils, agricultural products, pulp, paper, and chemical raw materials — offering one-stop warehousing and transfer solutions. As <strong>Zhejiang Province\'s first bonded warehouse for animal & vegetable oils</strong>, it handles over 500,000 tonnes annually.',
+  },
+  df_fac_lbl:    { cn: '设施与能力', en: 'Facilities' },
+  df_fac_lbl_en: { cn: 'Infrastructure & Capabilities', en: '设施与能力' },
+  df_f1_title: { cn: '油脂储罐', en: 'Storage Tanks' },
+  df_f1_en:    { cn: 'Storage Tanks', en: '油脂储罐' },
+  df_f1_desc:  {
+    cn: '现有油脂储罐32只，总容量约68,850立方米，其中不锈钢储罐6只计8,850立方米，可满足各类动植物油脂及工业油脂的分类储存需求。',
+    en: '32 storage tanks with total capacity of ~68,850 m³, including 6 stainless-steel tanks (8,850 m³), accommodating a wide range of animal, vegetable, and industrial oils.',
+  },
+  df_f2_title: { cn: '输油管道', en: 'Pipeline System' },
+  df_f2_en:    { cn: 'Pipeline System', en: '输油管道' },
+  df_f2_desc:  {
+    cn: '建有一条连接液体化工专用嘉港码头的集肤伴热输油管道，管径DN300，长度4000米，码头接卸速度可达每小时300吨以上；另设两条管线直达内河海恒码头，其中一条为不锈钢管线。',
+    en: 'A DN300 skin-effect heat-traced pipeline of 4,000 m connects to Jiagang Wharf, enabling discharge rates exceeding 300 t/h. Two additional pipelines run directly to Haiheng Inland Wharf, one of which is stainless steel.',
+  },
+  df_f3_title: { cn: '配套设施', en: 'Support Facilities' },
+  df_f3_en:    { cn: 'Support Facilities', en: '配套设施' },
+  df_f3_desc:  {
+    cn: '拥有4,800平方米厂房及配套油泵房、配电房、消防设备和办公用房，全面支持油脂接卸、装载、储运各环节的安全高效运营。',
+    en: '4,800 m² of workshop space alongside pump rooms, power distribution, fire-fighting equipment, and offices — fully supporting safe and efficient oil receiving, loading, and storage operations.',
+  },
+  df_band_title: { cn: '浙江省首个动植物油脂公用型保税仓库', en: 'Zhejiang\'s First Bonded Warehouse for Animal & Vegetable Oils' },
+  df_band_sub:   { cn: '一站式仓储接运解决方案 · 年接储能力50万吨以上', en: 'One-Stop Warehousing & Transfer · 500,000+ Tonnes Annual Capacity' },
+  df_company_val: { cn: '嘉兴市乍浦东方油脂有限公司', en: 'Jiaxing Zhapu Dongfang Oils Co., Ltd.' },
+  df_addr_val:    { cn: '浙江省嘉兴市乍浦滨海大道1371号', en: '1371 Binhai Ave, Zhapu, Jiaxing, Zhejiang' },
+  df_rep_lbl:     { cn: '法人代表 · Legal Rep', en: 'Legal Representative' },
+  df_rep_val:     { cn: '夏浩', en: 'Xia Hao' },
+  df_map_hint:    { cn: '浙江省嘉兴市乍浦滨海大道1371号', en: '1371 Binhai Ave, Zhapu, Jiaxing' },
+
   /* Footer */
   footer_copy: { cn: '© 2024 浙江省轻纺供销有限公司. All Rights Reserved.', en: '© 2024 ZJQF Supply & Marketing Co., Ltd. All Rights Reserved.' },
   footer_addr: { cn: '浙江省杭州市上城区凯旋路445号', en: '445 Kaixuan Rd, Hangzhou, Zhejiang, China' },
