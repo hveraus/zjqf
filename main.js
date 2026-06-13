@@ -97,6 +97,8 @@ const i18n = {
     cn: '拥有4,800平方米厂房及配套油泵房、配电房、消防设备和办公用房，全面支持油脂接卸、装载、储运各环节的安全高效运营。',
     en: '4,800 m² of workshop space alongside pump rooms, power distribution, fire-fighting equipment, and offices — fully supporting safe and efficient oil receiving, loading, and storage operations.',
   },
+  df_gal_lbl:    { cn: '厂区掠影', en: 'Gallery' },
+  df_gal_lbl_en: { cn: 'Facility Gallery', en: '厂区掠影' },
   df_band_title: { cn: '浙江省首个动植物油脂公用型保税仓库', en: 'Zhejiang\'s First Bonded Warehouse for Animal & Vegetable Oils' },
   df_band_sub:   { cn: '一站式仓储接运解决方案 · 年接储能力50万吨以上', en: 'One-Stop Warehousing & Transfer · 500,000+ Tonnes Annual Capacity' },
   df_company_val: { cn: '嘉兴市乍浦东方油脂有限公司', en: 'Jiaxing Zhapu Dongfang Oils Co., Ltd.' },

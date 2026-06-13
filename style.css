@@ -688,7 +688,8 @@ footer {
   transition: color .3s;
 }
 .breadcrumb a:hover { color: var(--red); }
-.breadcrumb span { color: var(--line); }
+.breadcrumb span { color: #C9C2B8; }
+.breadcrumb span[data-i18n] { color: var(--gray); }
 .red-bar {
   width: 36px; height: 3px;
   background: var(--red);

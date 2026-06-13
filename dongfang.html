@@ -203,8 +203,76 @@
       font-size: 12px; letter-spacing: 1.5px;
     }
 
+    /* ── Gallery (auto-scroll marquee) ── */
+    .df-gallery {
+      padding: 88px 0 96px;
+      background: var(--white);
+      overflow: hidden;
+    }
+    .df-gallery .a-head {
+      padding: 0 8%;
+      margin-bottom: 52px;
+    }
+    .df-marquee {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      -webkit-mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent);
+              mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent);
+    }
+    .df-track {
+      display: flex;
+      gap: 24px;
+      width: max-content;
+      padding: 8px 0;
+      animation: df-marquee 56s linear infinite;
+    }
+    .df-marquee:hover .df-track { animation-play-state: paused; }
+    @keyframes df-marquee {
+      from { transform: translateX(0); }
+      to   { transform: translateX(calc(-50% - 12px)); }
+    }
+    .df-shot {
+      position: relative;
+      flex: 0 0 auto;
+      width: 440px;
+      height: 300px;
+      overflow: hidden;
+      background: var(--bg);
+    }
+    .df-shot img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 1s var(--ease);
+    }
+    .df-shot::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(10,10,10,.5) 0%, transparent 45%);
+      opacity: 0;
+      transition: opacity .5s var(--ease);
+    }
+    .df-shot:hover img { transform: scale(1.07); }
+    .df-shot:hover::after { opacity: 1; }
+    .df-shot-num {
+      position: absolute;
+      top: 0; left: 0;
+      z-index: 2;
+      width: 46px; height: 46px;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--red);
+      color: #fff;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 1px;
+      transform: translateY(-100%);
+      transition: transform .45s var(--ease);
+    }
+    .df-shot:hover .df-shot-num { transform: translateY(0); }
+
     /* ── Responsive ── */
     @media (max-width: 900px) {
+      .df-shot { width: 320px; height: 220px; }
       .df-stats { grid-template-columns: repeat(2, 1fr); }
       .df-intro  { grid-template-columns: 1fr; }
       .df-intro-img { min-height: 280px; }
@@ -347,6 +415,34 @@
       <p class="df-fac-desc" data-i18n="df_f3_desc"></p>
     </div>
 
+  </div>
+</div>
+
+<!-- ════════════════════════════ 厂区掠影 ════════════════════════════ -->
+<div class="df-gallery">
+  <div class="a-head rv">
+    <div class="a-tag"><span data-i18n="df_gal_lbl"></span></div>
+    <p class="a-tag-en" data-i18n="df_gal_lbl_en"></p>
+  </div>
+
+  <div class="df-marquee">
+    <div class="df-track">
+      <div class="df-shot"><span class="df-shot-num">01</span><img src="images/df-1.jpg" alt="东方油脂厂区实景 01" loading="lazy" /></div>
+      <div class="df-shot"><span class="df-shot-num">02</span><img src="images/df-2.jpg" alt="东方油脂厂区实景 02" loading="lazy" /></div>
+      <div class="df-shot"><span class="df-shot-num">03</span><img src="images/df-3.jpg" alt="东方油脂厂区实景 03" loading="lazy" /></div>
+      <div class="df-shot"><span class="df-shot-num">04</span><img src="images/df-4.jpg" alt="东方油脂厂区实景 04" loading="lazy" /></div>
+      <div class="df-shot"><span class="df-shot-num">05</span><img src="images/df-5.jpg" alt="东方油脂厂区实景 05" loading="lazy" /></div>
+      <div class="df-shot"><span class="df-shot-num">06</span><img src="images/df-6.jpg" alt="东方油脂厂区实景 06" loading="lazy" /></div>
+      <div class="df-shot"><span class="df-shot-num">07</span><img src="images/df-7.jpg" alt="东方油脂厂区实景 07" loading="lazy" /></div>
+      <!-- duplicate set for seamless loop -->
+      <div class="df-shot" aria-hidden="true"><span class="df-shot-num">01</span><img src="images/df-1.jpg" alt="" loading="lazy" /></div>
+      <div class="df-shot" aria-hidden="true"><span class="df-shot-num">02</span><img src="images/df-2.jpg" alt="" loading="lazy" /></div>
+      <div class="df-shot" aria-hidden="true"><span class="df-shot-num">03</span><img src="images/df-3.jpg" alt="" loading="lazy" /></div>
+      <div class="df-shot" aria-hidden="true"><span class="df-shot-num">04</span><img src="images/df-4.jpg" alt="" loading="lazy" /></div>
+      <div class="df-shot" aria-hidden="true"><span class="df-shot-num">05</span><img src="images/df-5.jpg" alt="" loading="lazy" /></div>
+      <div class="df-shot" aria-hidden="true"><span class="df-shot-num">06</span><img src="images/df-6.jpg" alt="" loading="lazy" /></div>
+      <div class="df-shot" aria-hidden="true"><span class="df-shot-num">07</span><img src="images/df-7.jpg" alt="" loading="lazy" /></div>
+    </div>
   </div>
 </div>
 
