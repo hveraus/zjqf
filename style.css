@@ -108,6 +108,20 @@ nav.solid .lang-toggle button.active {
 .nav-links a:hover::after { width: 100%; }
 .nav-links a:hover { color: var(--red) !important; }
 
+/* transparent nav (over hero) – stronger contrast */
+nav:not(.solid) .nav-links a {
+  color: var(--ink);
+  font-weight: 500;
+  text-shadow: 0 1px 14px rgba(245,242,236,.85);
+}
+nav:not(.solid) .lang-toggle {
+  border-color: rgba(20,20,20,.22);
+  background: rgba(255,255,255,.35);
+  backdrop-filter: blur(6px);
+}
+nav:not(.solid) .lang-toggle button { color: var(--ink); }
+nav:not(.solid) .lang-toggle button.active { color: #fff; }
+
 /* hamburger */
 .hamburger {
   display: none; flex-direction: column; gap: 5px;
@@ -158,35 +172,31 @@ nav.solid .lang-toggle button.active {
 }
 .slide.active { opacity: 1; transform: scale(1); }
 
-.slide-1 { background: linear-gradient(145deg,#f8f5f0 0%,#f0e8df 40%,#ede2d5 65%,#f5f0e8 100%); }
+.slide-1 {
+  background-image: url('images/df-6.jpg');
+  background-size: cover;
+  background-position: center;
+}
 .slide-2 {
   background-image: url('images/hero.jpg');
   background-size: cover;
   background-position: center;
 }
-.slide-3 { background: linear-gradient(145deg,#f4f7fb 0%,#e8eef8 40%,#dce8f5 65%,#d8e6f2 100%); }
+.slide-3 {
+  background-image: url('images/df-1.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 .slide-art {
   position: absolute; inset: 0;
   overflow: hidden;
 }
 
-/* slide 1 – geometric rings */
-.slide-1 .slide-art::before {
-  content: '';
-  position: absolute;
-  right: -10%; top: 50%; transform: translateY(-50%);
-  width: 70vh; height: 70vh;
-  border-radius: 50%;
-  border: 1px solid rgba(0,0,0,.06);
-  box-shadow:
-    0 0 0 70px rgba(0,0,0,.025),
-    0 0 0 140px rgba(0,0,0,.015),
-    0 0 0 210px rgba(0,0,0,.01);
-}
-
-/* slide 2 – photo, no overlay */
-.slide-2 .slide-art { display: none; }
+/* photo slides – no overlay art */
+.slide-1 .slide-art,
+.slide-2 .slide-art,
+.slide-3 .slide-art { display: none; }
 
 /* slide 3 – radial rings from bottom-left */
 .slide-3 .slide-art::before {
@@ -205,6 +215,17 @@ nav.solid .lang-toggle button.active {
 
 .hero-overlay { display: none; }
 
+/* soft top scrim for nav legibility over photo slides */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 150px;
+  background: linear-gradient(to bottom, rgba(245,242,236,.75) 0%, rgba(245,242,236,.3) 45%, transparent 100%);
+  z-index: 6;
+  pointer-events: none;
+}
+
 /* content */
 .hero-content {
   position: relative; z-index: 10;
@@ -213,6 +234,22 @@ nav.solid .lang-toggle button.active {
   justify-content: center;
   padding: 0 6%;
   padding-top: 68px;
+}
+/* soft feathered light wash behind text for legibility on photo slides */
+.hero-content::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 50%;
+  transform: translateY(-50%);
+  width: 64%; height: 96%;
+  background: radial-gradient(ellipse 68% 58% at 30% 50%,
+    rgba(245,242,236,.94) 0%,
+    rgba(245,242,236,.8) 34%,
+    rgba(245,242,236,.45) 56%,
+    rgba(245,242,236,.12) 74%,
+    transparent 86%);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .hero-badge {
@@ -242,6 +279,7 @@ nav.solid .lang-toggle button.active {
   letter-spacing: 10px;
   line-height: 1.08;
   margin-bottom: 18px;
+  text-shadow: 0 2px 24px rgba(248,246,242,.7);
   opacity: 0; animation: fadeUp .9s var(--ease) .5s forwards;
 }
 .hero-slogan em {
