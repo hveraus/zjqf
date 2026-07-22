@@ -43,6 +43,100 @@ const i18n = {
   biz3_name:    { cn: '饲料与其他',          en: 'Feed & Others' },
   biz3_name_en: { cn: 'Feed & Others',       en: '饲料与其他' },
   biz3_tags:    { cn: '<span>棕榈粕</span><span>乳清粉</span><span>木薯淀粉</span>', en: '<span>Palm Kernel Meal</span><span>Whey Powder</span><span>Tapioca Starch</span>' },
+  biz_more:     { cn: '查看详情', en: 'View Details' },
+
+  /* Wood pulp product page */
+  pulp_banner_en: { cn: 'Wood Pulp · Products', en: '纸浆 · 产品介绍' },
+  pulp_intro:     { cn: '公司主营进口漂白硫酸盐针叶木浆，货源覆盖加拿大、智利等主要产区，涵盖虹鱼、凯利普、银星等知名品牌，纤维长、强度高、白度稳定，为造纸企业提供优质稳定的长纤维原料供应。', en: 'We specialise in imported bleached softwood kraft pulp sourced from major regions including Canada and Chile — covering renowned brands such as Arauco, Clearwater and Silver Star. With long fibres, high strength and stable brightness, we provide reliable, high-quality long-fibre feedstock to paper mills.' },
+  pulp_brand_lbl:    { cn: '核心品牌', en: 'Featured Brands' },
+  pulp_brand_lbl_en: { cn: 'Featured Brands', en: '核心品牌' },
+  pulp_cat_lbl:      { cn: '产品与品类', en: 'Products & Categories' },
+  pulp_cat_lbl_en:   { cn: 'Products & Categories', en: '产品与品类' },
+  pulp_use_lbl:      { cn: '主要用途', en: 'Applications' },
+
+  pulp1_name: { cn: '银星', en: 'Silver Star' },
+  pulp1_tag:  { cn: '智利针叶 · Chilean Softwood', en: 'Chilean Softwood' },
+  pulp1_intro:{ cn: '产自智利的漂白硫酸盐针叶木浆知名品牌，纤维长、强度高、白度稳定。', en: 'A renowned bleached softwood kraft pulp brand from Chile — long fibres, high strength and stable brightness.' },
+  pulp1_use:  { cn: '广泛用于高档文化纸、生活用纸及包装用纸的生产。', en: 'Widely used in premium printing & writing paper, tissue and packaging paper.' },
+
+  pulp2_name: { cn: '虹鱼', en: 'Hongyu' },
+  pulp2_tag:  { cn: '加拿大针叶 · Canadian Softwood', en: 'Canadian Softwood' },
+  pulp2_intro:{ cn: '加拿大进口漂白硫酸盐针叶木浆品牌，长纤维、高强度、高白度。', en: 'An imported Canadian bleached softwood kraft pulp brand — long fibres, high strength and high brightness.' },
+  pulp2_use:  { cn: '适用于高强度纸张、生活用纸及特种纸的生产。', en: 'Suitable for high-strength paper, tissue and specialty paper production.' },
+
+  pulp3_name: { cn: '加拿大针叶浆', en: 'Canadian Softwood Pulp' },
+  pulp3_tag:  { cn: '主营品类 · NBSK', en: 'Core Category · NBSK' },
+  pulp3_intro:{ cn: '主营加拿大进口针叶漂白硫酸盐木浆，涵盖虹鱼、凯利普等知名品牌，货源稳定。', en: 'Our core category of imported Canadian bleached softwood kraft pulp, covering renowned brands such as Hongyu and Clearwater, with stable supply.' },
+  pulp3_use:  { cn: '为造纸企业提供优质长纤维原料，提升纸张强度与品质。', en: 'Provides paper mills with premium long-fibre feedstock, enhancing paper strength and quality.' },
+
+  pulp4_name: { cn: '智利针叶浆', en: 'Chilean Softwood Pulp' },
+  pulp4_tag:  { cn: '进口品类 · Radiata Pine', en: 'Import Category · Radiata Pine' },
+  pulp4_intro:{ cn: '智利进口针叶漂白硫酸盐木浆，以银星等品牌为代表，性价比突出。', en: 'Imported Chilean bleached softwood kraft pulp, represented by brands such as Silver Star, with excellent value.' },
+  pulp4_use:  { cn: '适用于文化纸、生活用纸等多种纸品的生产。', en: 'Suitable for printing & writing paper, tissue and a wide range of paper products.' },
+
+  pulp5_name: { cn: '漂白硫酸盐针叶木浆', en: 'Bleached Softwood Kraft Pulp' },
+  pulp5_tag:  { cn: '核心原料 · BSKP', en: 'Core Material · BSKP' },
+  pulp5_intro:{ cn: '漂白硫酸盐针叶木浆纤维长、强度高、白度稳定，是造纸行业核心长纤维原料。', en: 'Bleached softwood kraft pulp offers long fibres, high strength and stable brightness — a core long-fibre raw material for the paper industry.' },
+  pulp5_use:  { cn: '广泛用于提升纸张强度，是多种纸品不可或缺的基础原料。', en: 'Widely used to enhance paper strength — an indispensable base material across many paper grades.' },
+
+  /* Oils & Oleochemicals product page */
+  oils_banner_en: { cn: 'Oils & Oleochemicals · Products', en: '油脂油化 · 产品介绍' },
+  oils_intro:     { cn: '公司专注油脂油化领域进出口贸易，涵盖精炼油脂、原油、脂肪酸馏出物及油化衍生品，产品广泛应用于食品、日化、油脂化工、生物柴油等行业，为下游客户提供稳定优质的原料供应。', en: 'We specialise in the import & export of oils and oleochemicals — refined oils, crude oils, fatty acid distillates and derivatives — widely used across food, home & personal care, oleochemical, and biodiesel industries, delivering reliable, high-quality feedstock to downstream clients.' },
+  oils_use_lbl:   { cn: '主要用途', en: 'Applications' },
+
+  p1_name:    { cn: '精炼棕榈仁油', en: 'Refined Palm Kernel Oil' },
+  p1_name_en: { cn: 'Refined Palm Kernel Oil', en: '精炼棕榈仁油' },
+  p1_code: { cn: 'RBDPKO', en: 'RBDPKO' },
+  p1_intro:{ cn: '经过精炼、脱色、脱臭工艺加工而成，富含月桂酸，广泛应用于食品与日化行业。', en: 'Produced through refining, bleaching and deodorising; rich in lauric acid and widely used in food and home & personal care industries.' },
+  p1_use:  { cn: '食品领域用于制作人造奶油、冰淇淋、代可可脂；日化行业是洗发水、沐浴露、香皂表面活性剂的核心上游原料，也是油脂化工基础原料。', en: 'In food: margarine, ice cream and cocoa butter substitutes. In home care: a core upstream feedstock for surfactants in shampoo, body wash and soap, and a base oleochemical raw material.' },
+
+  p2_name:    { cn: '精炼椰子油', en: 'Refined Coconut Oil' },
+  p2_name_en: { cn: 'Refined Coconut Oil', en: '精炼椰子油' },
+  p2_code: { cn: 'RBDCNO', en: 'RBDCNO' },
+  p2_intro:{ cn: '精炼脱色脱臭椰子油，稳定性佳，兼顾食品消费与日化洗护两大领域。', en: 'Refined, bleached and deodorised coconut oil with excellent stability, serving both food consumption and personal-care sectors.' },
+  p2_use:  { cn: '可直接作为食用油脂用于烘焙、膳食烹饪；同时大量用于冷制皂、身体护肤品、洗衣液、洗洁精等洗护产品制造。', en: 'Used directly as edible oil for baking and cooking; also widely used in cold-process soap, body care, laundry and dishwashing products.' },
+
+  p3_name:    { cn: '棕榈硬脂', en: 'Palm Stearin (Hard)' },
+  p3_name_en: { cn: 'Palm Stearin (Hard)', en: '棕榈硬脂' },
+  p3_code: { cn: 'HPS', en: 'HPS' },
+  p3_intro:{ cn: '硬质棕榈硬脂是棕榈油分馏得到的高熔点固体油脂，可塑性强，为食品与工业通用原料。', en: 'A high-melting-point solid fat obtained by fractionating palm oil; highly plastic and used as a general raw material across food and industry.' },
+  p3_use:  { cn: '食品行业用于生产起酥油、人造黄油；工业上用来制作硬化油、工艺蜡烛、工业润滑原料。', en: 'In food: shortening and margarine. In industry: hydrogenated oils, craft candles and industrial lubricant feedstock.' },
+
+  p4_name:    { cn: '毛棕榈仁油', en: 'Crude Palm Kernel Oil' },
+  p4_name_en: { cn: 'Crude Palm Kernel Oil', en: '毛棕榈仁油' },
+  p4_code: { cn: 'CPKO', en: 'CPKO' },
+  p4_intro:{ cn: '未经精炼的原生棕榈仁原油，是下游精炼工厂的基础原料。', en: 'Unrefined crude palm kernel oil serving as base feedstock for downstream refineries.' },
+  p4_use:  { cn: '主要供给油脂精炼厂深加工，用来生产精炼棕榈仁油、各类脂肪酸、工业皂基等下游产品。', en: 'Mainly supplied to oil refineries for further processing into refined palm kernel oil, fatty acids and industrial soap bases.' },
+
+  p5_name:    { cn: '棕榈仁油脂肪酸', en: 'Palm Kernel Fatty Acid Distillate' },
+  p5_name_en: { cn: 'Palm Kernel Fatty Acid Distillate', en: '棕榈仁油脂肪酸' },
+  p5_code: { cn: 'PKFAD', en: 'PKFAD' },
+  p5_intro:{ cn: '棕榈仁油精炼过程产生的脂肪酸馏出物，月桂酸含量突出，是日化洗涤、脂肪醇的重要原料。', en: 'A fatty acid distillate from palm kernel oil refining, notably high in lauric acid; an important feedstock for detergents and fatty alcohols.' },
+  p5_use:  { cn: '大量用于生产民用洗衣皂、工业皂，同时制造表面活性剂、脂肪醇，是洗护产业链常见基础化工原料。', en: 'Widely used to make laundry and industrial soaps, surfactants and fatty alcohols — a common base chemical in the personal-care supply chain.' },
+
+  p6_name:    { cn: '椰子油脂肪酸', en: 'Coconut Fatty Acid Distillate' },
+  p6_name_en: { cn: 'Coconut Fatty Acid Distillate', en: '椰子油脂肪酸' },
+  p6_code: { cn: 'CFAD', en: 'CFAD' },
+  p6_intro:{ cn: '源自椰子油精炼的副产脂肪酸，是洗涤剂、皂类生产的主流原料。', en: 'A by-product fatty acid from coconut oil refining; a mainstream raw material for detergents and soaps.' },
+  p6_use:  { cn: '主要用于生产各类皂基、洗衣液、洗洁精等洗涤产品，也用于日化乳化剂、化妆品原料生产。', en: 'Mainly used for soap bases, laundry and dishwashing products, as well as emulsifiers and cosmetic raw materials.' },
+
+  p7_name:    { cn: '棕榈油脂肪酸', en: 'Palm Fatty Acid Distillate' },
+  p7_name_en: { cn: 'Palm Fatty Acid Distillate', en: '棕榈油脂肪酸' },
+  p7_code: { cn: 'PFAD', en: 'PFAD' },
+  p7_intro:{ cn: '棕榈果肉油精炼产生的脂肪酸馏出物，是生物柴油、工业油脂、硬脂酸的原料。', en: 'A fatty acid distillate from palm (mesocarp) oil refining; feedstock for biodiesel, industrial oils and stearic acid.' },
+  p7_use:  { cn: '可制造工业肥皂、硬脂酸、油酸；也是生产生物柴油、饲料用油的重要原材料，不适合加工食用产品。', en: 'Used for industrial soap, stearic acid and oleic acid, and as a key raw material for biodiesel and feed oils — not suitable for edible products.' },
+
+  p8_name:    { cn: '甘油', en: 'Glycerin' },
+  p8_name_en: { cn: 'Glycerin', en: '甘油' },
+  p8_code: { cn: 'GLYCERIN', en: 'GLYCERIN' },
+  p8_intro:{ cn: '甘油由油脂水解加工制取，拥有优秀的保湿效果，在食品、美妆、医药多领域通用。', en: 'Produced by hydrolysing oils and fats; an excellent humectant used across food, cosmetics and pharmaceuticals.' },
+  p8_use:  { cn: '化妆品、护肤品常用保湿原料；食品行业用作保湿、甜味助剂；同时广泛应用于医药制剂、工业树脂、防冻液制造。', en: 'A common humectant in cosmetics and skincare; a moisture and sweetening aid in food; also widely used in pharmaceuticals, industrial resins and antifreeze.' },
+
+  p9_name:    { cn: 'UCO 废弃食用油脂', en: 'UCO (Used Cooking Oil)' },
+  p9_name_en: { cn: 'Used Cooking Oil', en: '废弃食用油脂' },
+  p9_code: { cn: 'UCO', en: 'UCO' },
+  p9_intro:{ cn: '统一规范回收的废弃餐饮油脂，专供工业再生利用，严禁流入食品渠道。', en: 'Regulated, centrally collected used cooking oil dedicated to industrial recycling — strictly prohibited from re-entering the food chain.' },
+  p9_use:  { cn: '主要作为原料生产生物柴油、工业脂肪酸，属于资源循环利用类工业原料。', en: 'Mainly used as feedstock for biodiesel and industrial fatty acids — a circular-economy industrial raw material.' },
 
   /* Contact */
   contact_tag:      { cn: '联系我们 · Contact Us',                    en: 'Contact Us · Get in Touch' },

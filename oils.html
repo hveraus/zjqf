@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>油脂油化 | 浙江省轻纺供销有限公司</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .oils-section {
+      padding: 84px 8% 96px;
+      background: var(--white);
+    }
+    .oils-lead {
+      max-width: 860px;
+      margin: 32px 0 64px;
+      font-size: 15px;
+      line-height: 2;
+      color: var(--gray);
+      letter-spacing: .3px;
+    }
+    .prod-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2px;
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+    .prod-card {
+      background: var(--white);
+      padding: 44px 40px;
+      position: relative;
+      overflow: hidden;
+      transition: background .4s var(--ease);
+    }
+    .prod-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0;
+      width: 3px; height: 0;
+      background: var(--red);
+      transition: height .5s var(--ease);
+    }
+    .prod-card:hover { background: #fcfbfa; }
+    .prod-card:hover::before { height: 100%; }
+    .prod-idx {
+      position: absolute; top: 26px; right: 34px;
+      font-size: 60px; font-weight: 700;
+      color: var(--bg); line-height: 1;
+      user-select: none;
+      transition: color .4s;
+    }
+    .prod-card:hover .prod-idx { color: rgba(196,18,48,.06); }
+    .prod-code {
+      display: inline-block;
+      font-size: 11px; letter-spacing: 2px;
+      color: var(--red);
+      border: 1px solid rgba(196,18,48,.3);
+      padding: 3px 10px;
+      margin-bottom: 16px;
+    }
+    .prod-name {
+      font-size: 21px; font-weight: 700;
+      letter-spacing: 1.5px;
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+    .prod-name-en {
+      font-size: 11px; letter-spacing: 1.5px;
+      color: var(--muted); text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .prod-intro {
+      font-size: 14px; color: var(--gray);
+      line-height: 1.9;
+      margin-bottom: 22px;
+    }
+    .prod-use-lbl {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 11px; letter-spacing: 2px;
+      color: var(--ink); font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .prod-use-lbl::before {
+      content: '';
+      width: 14px; height: 2px;
+      background: var(--red);
+    }
+    .prod-use {
+      font-size: 13.5px; color: var(--gray);
+      line-height: 1.9;
+    }
+    @media (max-width: 800px) {
+      .prod-grid { grid-template-columns: 1fr; }
+      .prod-card { padding: 36px 28px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ════════════════════════════ NAV ════════════════════════════ -->
+<nav id="nav">
+  <a class="logo" href="index.html">
+    <img class="logo-img" src="images/logo-2.png" alt="浙江轻纺 Light Textile Industry" />
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="index.html"          data-i18n="nav_home"></a></li>
+    <li><a href="about.html"          data-i18n="nav_about"></a></li>
+    <li><a href="index.html#business" data-i18n="nav_products" class="nav-active"></a></li>
+    <li><a href="dongfang.html"       data-i18n="nav_dongfang"></a></li>
+  </ul>
+
+  <div style="display:flex;align-items:center;gap:20px">
+    <div class="lang-toggle">
+      <button id="btn-cn" class="active" onclick="setLang('cn')">中文</button>
+      <button id="btn-en"               onclick="setLang('en')">EN</button>
+    </div>
+    <div class="hamburger" id="ham" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html"          onclick="toggleMenu()" data-i18n="nav_home"></a>
+  <a href="about.html"          onclick="toggleMenu()" data-i18n="nav_about"></a>
+  <a href="index.html#business" onclick="toggleMenu()" data-i18n="nav_products"></a>
+  <a href="dongfang.html"       onclick="toggleMenu()" data-i18n="nav_dongfang"></a>
+</div>
+
+<!-- ════════════════════════════ BANNER ════════════════════════════ -->
+<div class="page-banner">
+  <div class="breadcrumb">
+    <a href="index.html" data-i18n="nav_home"></a>
+    <span>›</span>
+    <a href="index.html#business" data-i18n="nav_products"></a>
+    <span>›</span>
+    <span data-i18n="biz1_name"></span>
+  </div>
+  <div class="red-bar"></div>
+  <h1 data-i18n="biz1_name"></h1>
+  <p  data-i18n="oils_banner_en"></p>
+</div>
+
+<!-- ════════════════════════════ 产品 ════════════════════════════ -->
+<div class="oils-section">
+  <p class="oils-lead rv" data-i18n="oils_intro"></p>
+
+  <div class="prod-grid">
+    <div class="prod-card rv">
+      <div class="prod-idx">01</div>
+      <span class="prod-code" data-i18n="p1_code"></span>
+      <h3 class="prod-name" data-i18n="p1_name"></h3>
+      <p class="prod-name-en" data-i18n="p1_name_en"></p>
+      <p class="prod-intro" data-i18n="p1_intro"></p>
+      <div class="prod-use-lbl" data-i18n="oils_use_lbl"></div>
+      <p class="prod-use" data-i18n="p1_use"></p>
+    </div>
+    <div class="prod-card rv">
+      <div class="prod-idx">02</div>
+      <span class="prod-code" data-i18n="p2_code"></span>
+      <h3 class="prod-name" data-i18n="p2_name"></h3>
+      <p class="prod-name-en" data-i18n="p2_name_en"></p>
+      <p class="prod-intro" data-i18n="p2_intro"></p>
+      <div class="prod-use-lbl" data-i18n="oils_use_lbl"></div>
+      <p class="prod-use" data-i18n="p2_use"></p>
+    </div>
+    <div class="prod-card rv">
+      <div class="prod-idx">03</div>
+      <span class="prod-code" data-i18n="p3_code"></span>
+      <h3 class="prod-name" data-i18n="p3_name"></h3>
+      <p class="prod-name-en" data-i18n="p3_name_en"></p>
+      <p class="prod-intro" data-i18n="p3_intro"></p>
+      <div class="prod-use-lbl" data-i18n="oils_use_lbl"></div>
+      <p class="prod-use" data-i18n="p3_use"></p>
+    </div>
+    <div class="prod-card rv">
+      <div class="prod-idx">04</div>
+      <span class="prod-code" data-i18n="p4_code"></span>
+      <h3 class="prod-name" data-i18n="p4_name"></h3>
+      <p class="prod-name-en" data-i18n="p4_name_en"></p>
+      <p class="prod-intro" data-i18n="p4_intro"></p>
+      <div class="prod-use-lbl" data-i18n="oils_use_lbl"></div>
+      <p class="prod-use" data-i18n="p4_use"></p>
+    </div>
+    <div class="prod-card rv">
+      <div class="prod-idx">05</div>
+      <span class="prod-code" data-i18n="p5_code"></span>
+      <h3 class="prod-name" data-i18n="p5_name"></h3>
+      <p class="prod-name-en" data-i18n="p5_name_en"></p>
+      <p class="prod-intro" data-i18n="p5_intro"></p>
+      <div class="prod-use-lbl" data-i18n="oils_use_lbl"></div>
+      <p class="prod-use" data-i18n="p5_use"></p>
+    </div>
+    <div class="prod-card rv">
+      <div class="prod-idx">06</div>
+      <span class="prod-code" data-i18n="p6_code"></span>
+      <h3 class="prod-name" data-i18n="p6_name"></h3>
+      <p class="prod-name-en" data-i18n="p6_name_en"></p>
+      <p class="prod-intro" data-i18n="p6_intro"></p>
+      <div class="prod-use-lbl" data-i18n="oils_use_lbl"></div>
+      <p class="prod-use" data-i18n="p6_use"></p>
+    </div>
+    <div class="prod-card rv">
+      <div class="prod-idx">07</div>
+      <span class="prod-code" data-i18n="p7_code"></span>
+      <h3 class="prod-name" data-i18n="p7_name"></h3>
+      <p class="prod-name-en" data-i18n="p7_name_en"></p>
+      <p class="prod-intro" data-i18n="p7_intro"></p>
+      <div class="prod-use-lbl" data-i18n="oils_use_lbl"></div>
+      <p class="prod-use" data-i18n="p7_use"></p>
+    </div>
+    <div class="prod-card rv">
+      <div class="prod-idx">08</div>
+      <span class="prod-code" data-i18n="p8_code"></span>
+      <h3 class="prod-name" data-i18n="p8_name"></h3>
+      <p class="prod-name-en" data-i18n="p8_name_en"></p>
+      <p class="prod-intro" data-i18n="p8_intro"></p>
+      <div class="prod-use-lbl" data-i18n="oils_use_lbl"></div>
+      <p class="prod-use" data-i18n="p8_use"></p>
+    </div>
+    <div class="prod-card rv">
+      <div class="prod-idx">09</div>
+      <span class="prod-code" data-i18n="p9_code"></span>
+      <h3 class="prod-name" data-i18n="p9_name"></h3>
+      <p class="prod-name-en" data-i18n="p9_name_en"></p>
+      <p class="prod-intro" data-i18n="p9_intro"></p>
+      <div class="prod-use-lbl" data-i18n="oils_use_lbl"></div>
+      <p class="prod-use" data-i18n="p9_use"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════ FOOTER ════════════════════════════ -->
+<footer>
+  <div class="f-logo"><img src="images/logo-2.png" alt="浙江轻纺" style="height:44px;width:auto;filter:brightness(0) invert(1);display:block;" /></div>
+  <div class="f-copy" data-i18n="footer_copy"></div>
+  <div class="f-addr" data-i18n="footer_addr"></div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

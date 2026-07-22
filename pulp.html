@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>纸浆 | 浙江省轻纺供销有限公司</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .pulp-section {
+      padding: 84px 8% 96px;
+      background: var(--white);
+    }
+    .pulp-lead {
+      max-width: 860px;
+      margin: 32px 0 56px;
+      font-size: 15px;
+      line-height: 2;
+      color: var(--gray);
+      letter-spacing: .3px;
+    }
+    .pulp-sub-head {
+      margin: 64px 0 32px;
+    }
+    .pulp-sub-head:first-of-type { margin-top: 0; }
+    .pulp-sub-tag {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-size: 19px; font-weight: 700;
+      letter-spacing: 2px; color: var(--ink);
+    }
+    .pulp-sub-tag::before {
+      content: '';
+      width: 26px; height: 3px;
+      background: var(--red);
+    }
+    .pulp-sub-en {
+      margin-top: 8px; margin-left: 36px;
+      font-size: 11px; letter-spacing: 2.5px;
+      color: var(--muted); text-transform: uppercase;
+    }
+
+    /* brand cards (with image) */
+    .pulp-brand-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2px;
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+    .pulp-brand {
+      background: var(--white);
+      display: flex; flex-direction: column;
+    }
+    .pulp-brand-img {
+      position: relative;
+      height: 300px;
+      overflow: hidden;
+      background: var(--bg);
+    }
+    .pulp-brand-img img {
+      width: 100%; height: 100%;
+      object-fit: cover; display: block;
+      transition: transform 1s var(--ease);
+    }
+    .pulp-brand:hover .pulp-brand-img img { transform: scale(1.05); }
+    .pulp-brand-body { padding: 32px 36px 40px; }
+    .pulp-brand-name {
+      font-size: 24px; font-weight: 700;
+      letter-spacing: 2px; color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .pulp-brand-tag {
+      display: inline-block;
+      font-size: 11px; letter-spacing: 1.5px;
+      color: var(--red);
+      border: 1px solid rgba(196,18,48,.3);
+      padding: 3px 10px;
+      margin-bottom: 18px;
+    }
+    .pulp-brand-intro {
+      font-size: 14px; color: var(--gray);
+      line-height: 1.9; margin-bottom: 18px;
+    }
+    .pulp-use-lbl {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 11px; letter-spacing: 2px;
+      color: var(--ink); font-weight: 700;
+      text-transform: uppercase; margin-bottom: 10px;
+    }
+    .pulp-use-lbl::before {
+      content: ''; width: 14px; height: 2px; background: var(--red);
+    }
+    .pulp-use {
+      font-size: 13.5px; color: var(--gray); line-height: 1.9;
+    }
+
+    /* category cards (text only) */
+    .pulp-cat-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+    .pulp-cat {
+      background: var(--white);
+      padding: 40px 34px;
+      position: relative;
+      overflow: hidden;
+      transition: background .4s var(--ease);
+    }
+    .pulp-cat::before {
+      content: ''; position: absolute; top: 0; left: 0;
+      width: 3px; height: 0; background: var(--red);
+      transition: height .5s var(--ease);
+    }
+    .pulp-cat:hover { background: #fcfbfa; }
+    .pulp-cat:hover::before { height: 100%; }
+    .pulp-cat-name {
+      font-size: 19px; font-weight: 700;
+      letter-spacing: 1.5px; color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .pulp-cat-tag {
+      display: inline-block;
+      font-size: 11px; letter-spacing: 1.5px;
+      color: var(--red);
+      border: 1px solid rgba(196,18,48,.3);
+      padding: 3px 10px;
+      margin-bottom: 18px;
+    }
+    .pulp-cat-intro {
+      font-size: 13.5px; color: var(--gray);
+      line-height: 1.9; margin-bottom: 18px;
+    }
+
+    @media (max-width: 800px) {
+      .pulp-brand-grid,
+      .pulp-cat-grid { grid-template-columns: 1fr; }
+      .pulp-brand-img { height: 240px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ════════════════════════════ NAV ════════════════════════════ -->
+<nav id="nav">
+  <a class="logo" href="index.html">
+    <img class="logo-img" src="images/logo-2.png" alt="浙江轻纺 Light Textile Industry" />
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="index.html"          data-i18n="nav_home"></a></li>
+    <li><a href="about.html"          data-i18n="nav_about"></a></li>
+    <li><a href="index.html#business" data-i18n="nav_products" class="nav-active"></a></li>
+    <li><a href="dongfang.html"       data-i18n="nav_dongfang"></a></li>
+  </ul>
+
+  <div style="display:flex;align-items:center;gap:20px">
+    <div class="lang-toggle">
+      <button id="btn-cn" class="active" onclick="setLang('cn')">中文</button>
+      <button id="btn-en"               onclick="setLang('en')">EN</button>
+    </div>
+    <div class="hamburger" id="ham" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html"          onclick="toggleMenu()" data-i18n="nav_home"></a>
+  <a href="about.html"          onclick="toggleMenu()" data-i18n="nav_about"></a>
+  <a href="index.html#business" onclick="toggleMenu()" data-i18n="nav_products"></a>
+  <a href="dongfang.html"       onclick="toggleMenu()" data-i18n="nav_dongfang"></a>
+</div>
+
+<!-- ════════════════════════════ BANNER ════════════════════════════ -->
+<div class="page-banner">
+  <div class="breadcrumb">
+    <a href="index.html" data-i18n="nav_home"></a>
+    <span>›</span>
+    <a href="index.html#business" data-i18n="nav_products"></a>
+    <span>›</span>
+    <span data-i18n="biz2_name"></span>
+  </div>
+  <div class="red-bar"></div>
+  <h1 data-i18n="biz2_name"></h1>
+  <p  data-i18n="pulp_banner_en"></p>
+</div>
+
+<!-- ════════════════════════════ 内容 ════════════════════════════ -->
+<div class="pulp-section">
+  <p class="pulp-lead rv" data-i18n="pulp_intro"></p>
+
+  <!-- 核心品牌 -->
+  <div class="pulp-sub-head rv">
+    <div class="pulp-sub-tag" data-i18n="pulp_brand_lbl"></div>
+    <p class="pulp-sub-en" data-i18n="pulp_brand_lbl_en"></p>
+  </div>
+
+  <div class="pulp-brand-grid">
+    <div class="pulp-brand rv">
+      <div class="pulp-brand-img"><img src="images/pulp-1.jpg" alt="银星 智利针叶木浆" loading="lazy" /></div>
+      <div class="pulp-brand-body">
+        <h3 class="pulp-brand-name" data-i18n="pulp1_name"></h3>
+        <span class="pulp-brand-tag" data-i18n="pulp1_tag"></span>
+        <p class="pulp-brand-intro" data-i18n="pulp1_intro"></p>
+        <div class="pulp-use-lbl" data-i18n="pulp_use_lbl"></div>
+        <p class="pulp-use" data-i18n="pulp1_use"></p>
+      </div>
+    </div>
+    <div class="pulp-brand rv d1">
+      <div class="pulp-brand-img"><img src="images/pulp-2.jpg" alt="虹鱼 加拿大针叶木浆" loading="lazy" /></div>
+      <div class="pulp-brand-body">
+        <h3 class="pulp-brand-name" data-i18n="pulp2_name"></h3>
+        <span class="pulp-brand-tag" data-i18n="pulp2_tag"></span>
+        <p class="pulp-brand-intro" data-i18n="pulp2_intro"></p>
+        <div class="pulp-use-lbl" data-i18n="pulp_use_lbl"></div>
+        <p class="pulp-use" data-i18n="pulp2_use"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 产品与品类 -->
+  <div class="pulp-sub-head rv">
+    <div class="pulp-sub-tag" data-i18n="pulp_cat_lbl"></div>
+    <p class="pulp-sub-en" data-i18n="pulp_cat_lbl_en"></p>
+  </div>
+
+  <div class="pulp-cat-grid">
+    <div class="pulp-cat rv">
+      <h3 class="pulp-cat-name" data-i18n="pulp3_name"></h3>
+      <span class="pulp-cat-tag" data-i18n="pulp3_tag"></span>
+      <p class="pulp-cat-intro" data-i18n="pulp3_intro"></p>
+      <div class="pulp-use-lbl" data-i18n="pulp_use_lbl"></div>
+      <p class="pulp-use" data-i18n="pulp3_use"></p>
+    </div>
+    <div class="pulp-cat rv d1">
+      <h3 class="pulp-cat-name" data-i18n="pulp4_name"></h3>
+      <span class="pulp-cat-tag" data-i18n="pulp4_tag"></span>
+      <p class="pulp-cat-intro" data-i18n="pulp4_intro"></p>
+      <div class="pulp-use-lbl" data-i18n="pulp_use_lbl"></div>
+      <p class="pulp-use" data-i18n="pulp4_use"></p>
+    </div>
+    <div class="pulp-cat rv d2">
+      <h3 class="pulp-cat-name" data-i18n="pulp5_name"></h3>
+      <span class="pulp-cat-tag" data-i18n="pulp5_tag"></span>
+      <p class="pulp-cat-intro" data-i18n="pulp5_intro"></p>
+      <div class="pulp-use-lbl" data-i18n="pulp_use_lbl"></div>
+      <p class="pulp-use" data-i18n="pulp5_use"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════ FOOTER ════════════════════════════ -->
+<footer>
+  <div class="f-logo"><img src="images/logo-2.png" alt="浙江轻纺" style="height:44px;width:auto;filter:brightness(0) invert(1);display:block;" /></div>
+  <div class="f-copy" data-i18n="footer_copy"></div>
+  <div class="f-addr" data-i18n="footer_addr"></div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

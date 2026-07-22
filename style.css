@@ -560,6 +560,25 @@ nav:not(.solid) .lang-toggle button.active { color: #fff; }
   border-top: 1px solid var(--line);
 }
 
+/* clickable business card */
+.biz-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.biz-more {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-top: 22px;
+  font-size: 12px; letter-spacing: 2px;
+  color: var(--red);
+  text-transform: uppercase;
+}
+.biz-more::after {
+  content: '→';
+  transition: transform .35s var(--ease);
+}
+.biz-card-link:hover .biz-more::after { transform: translateX(6px); }
+
 /* ─── Contact ────────────────────────────────────────────────────── */
 .contact { background: var(--white); }
 
