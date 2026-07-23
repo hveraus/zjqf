@@ -45,6 +45,29 @@ const i18n = {
   biz3_tags:    { cn: '<span>棕榈粕</span><span>乳清粉</span><span>木薯淀粉</span>', en: '<span>Palm Kernel Meal</span><span>Whey Powder</span><span>Tapioca Starch</span>' },
   biz_more:     { cn: '查看详情', en: 'View Details' },
 
+  /* Feed & Others product page */
+  feed_banner_en: { cn: 'Feed & Others · Products', en: '饲料与其他 · 产品介绍' },
+  feed_intro:     { cn: '公司经营饲料及农副产品原料贸易，涵盖棕榈粕、乳清粉、木薯淀粉等品类，产品广泛应用于配合饲料、食品加工及工业制造领域，为下游客户提供稳定优质的大宗原料供应。', en: 'We trade in feed and agricultural raw materials — including palm kernel meal, whey powder and tapioca starch — widely used in compound feed, food processing and industrial manufacturing, providing reliable, high-quality bulk supply to downstream clients.' },
+  feed_use_lbl:   { cn: '主要用途', en: 'Applications' },
+
+  f1_name:    { cn: '棕榈粕', en: 'Palm Kernel Meal' },
+  f1_name_en: { cn: 'Palm Kernel Meal', en: '棕榈粕' },
+  f1_code:    { cn: 'PKE', en: 'PKE' },
+  f1_intro:   { cn: '棕榈粕是棕榈果肉压榨提取棕榈油之后产生的饼粕。', en: 'Palm kernel meal is the cake residue produced after pressing palm fruit to extract palm oil.' },
+  f1_use:     { cn: '富含粗脂肪与粗纤维，广泛用于牛、羊、家禽、水产配合饲料，是大宗低成本饲料原料。', en: 'Rich in crude fat and fibre; widely used in compound feed for cattle, sheep, poultry and aquaculture — a bulk, low-cost feed material.' },
+
+  f2_name:    { cn: '乳清粉', en: 'Whey Powder' },
+  f2_name_en: { cn: 'Whey Powder', en: '乳清粉' },
+  f2_code:    { cn: 'WHEY', en: 'WHEY' },
+  f2_intro:   { cn: '乳清粉为奶酪加工后的干燥副产品，分为甜乳清、脱盐乳清。', en: 'Whey powder is a dried by-product of cheese processing, available as sweet whey and demineralised whey.' },
+  f2_use:     { cn: '乳糖含量高，在饲料行业用于幼龄动物饲料；食品行业用于烘焙、婴配食品、乳制品调配。', en: 'High in lactose; used in feed for young animals, and in food for baking, infant formula and dairy blending.' },
+
+  f3_name:    { cn: '木薯淀粉', en: 'Tapioca Starch' },
+  f3_name_en: { cn: 'Tapioca Starch', en: '木薯淀粉' },
+  f3_code:    { cn: 'TAPIOCA', en: 'TAPIOCA' },
+  f3_intro:   { cn: '由木薯块根湿法提纯制成，拥有优良的增稠、成膜、粘结特性。', en: 'Wet-milled and purified from cassava root, offering excellent thickening, film-forming and binding properties.' },
+  f3_use:     { cn: '食品领域用于粉条、饮料、速冻制品；工业上用于造纸、纺织浆料、粘合剂、可降解材料生产。', en: 'In food: vermicelli, beverages and frozen products. In industry: papermaking, textile sizing, adhesives and biodegradable materials.' },
+
   /* Wood pulp product page */
   pulp_banner_en: { cn: 'Wood Pulp · Products', en: '纸浆 · 产品介绍' },
   pulp_intro:     { cn: '公司主营进口漂白硫酸盐针叶木浆，货源覆盖加拿大、智利等主要产区，涵盖虹鱼、凯利普、银星等知名品牌，纤维长、强度高、白度稳定，为造纸企业提供优质稳定的长纤维原料供应。', en: 'We specialise in imported bleached softwood kraft pulp sourced from major regions including Canada and Chile — covering renowned brands such as Arauco, Clearwater and Silver Star. With long fibres, high strength and stable brightness, we provide reliable, high-quality long-fibre feedstock to paper mills.' },
