@@ -565,6 +565,7 @@ nav:not(.solid) .lang-toggle button.active { color: #fff; }
   display: block;
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 .biz-more {
   display: inline-flex; align-items: center; gap: 6px;
