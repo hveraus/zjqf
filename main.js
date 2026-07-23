@@ -191,8 +191,8 @@ const i18n = {
     en: '<strong>Jiaxing Zhapu Dongfang Oils Co., Ltd.</strong> is a wholly-owned subsidiary of ZJQF, established in 1998 following the acquisition of the former Japanese joint venture Itochu Jiaxing Oils. Registered capital RMB 10 million, occupying 52 mu at 1371 Binhai Avenue, Zhapu, Jiaxing, Zhejiang.',
   },
   df_p2: {
-    cn: '公司主要从事动植物油脂及农副产品、纸、纸浆、化工原料等的销售及货运仓储业务，为客户提供一站式仓储接运解决方案。公司是<strong>浙江省首个动植物油脂公用型保税仓库</strong>，年接储油脂能力在50万吨以上，是国内最具规模的油脂储运企业之一。',
-    en: 'The company specialises in trading and logistics for animal & vegetable oils, agricultural products, pulp, paper, and chemical raw materials — offering one-stop warehousing and transfer solutions. As <strong>Zhejiang Province\'s first bonded warehouse for animal & vegetable oils</strong>, it handles over 500,000 tonnes annually.',
+    cn: '公司主要从事动植物油脂及农副产品、纸、纸浆、化工原料等的销售及货运仓储业务，为客户提供一站式仓储接运解决方案。公司年接储油脂能力在50万吨以上，是国内最具规模的油脂储运企业之一。',
+    en: 'The company specialises in trading and logistics for animal & vegetable oils, agricultural products, pulp, paper, and chemical raw materials — offering one-stop warehousing and transfer solutions. It handles over 500,000 tonnes of oils annually and is one of China\'s largest oil storage and logistics enterprises.',
   },
   df_fac_lbl:    { cn: '设施与能力', en: 'Facilities' },
   df_fac_lbl_en: { cn: 'Infrastructure & Capabilities', en: '设施与能力' },
