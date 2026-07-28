@@ -8,8 +8,8 @@ const i18n = {
 
   /* Hero */
   hero_badge:  { cn: '浙江省轻纺供销有限公司 · 浙江，中国', en: 'ZJQF Supply & Marketing · Zhejiang, China' },
-  hero_slogan: { cn: '追求卓越<br><em>永攀高峰</em>', en: 'Pursuing<br><em>Excellence</em>' },
-  hero_sub:    { cn: 'Pursuing Excellence · Reaching New Heights', en: 'Reaching New Heights · 追求卓越' },
+  hero_slogan: { cn: '守正拓新<br><em>共赢致远</em>', en: 'Integrity &<br><em>Innovation</em>' },
+  hero_sub:    { cn: 'Integrity &amp; Innovation · Win-Win for the Future', en: 'Win-Win for the Future · 守正拓新，共赢致远' },
   hero_btn1:   { cn: '了解业务&ensp;OUR BUSINESS', en: 'Our Business' },
   hero_btn2:   { cn: '联系我们&ensp;CONTACT US',   en: 'Contact Us' },
   scroll:      { cn: 'Scroll', en: 'Scroll' },
@@ -19,12 +19,12 @@ const i18n = {
   about_title:    { cn: '专注贸易<br>致力发展',                  en: 'Focused Trading<br>Committed to Growth' },
   about_title_en: { cn: 'Focused Trading · Committed to Growth', en: '专注贸易 · 致力发展' },
   about_lead: {
-    cn: '<strong>浙江省轻纺供销有限公司</strong>深耕大宗商品贸易领域，专注动植物油脂、木浆废纸及工业油脂的进出口贸易，以诚信经营为本，以客户需求为先，持续构建稳健高效的供应链体系，致力成为业界值得信赖的贸易伙伴。',
-    en: '<strong>ZJQF Supply & Marketing Co., Ltd.</strong> is dedicated to bulk commodity trading, specialising in animal & vegetable oils, wood pulp & waste paper, and industrial oils — building a trusted and efficient global supply chain.',
+    cn: '<strong>浙江省轻纺供销有限公司</strong>以大宗商品贸易和仓储物流为核心，深耕区域与行业渠道，专注动植物油脂、工业油脂、木浆、饲料、农副产品进出口贸易及油脂产品接卸储存业务，以诚信为本，客户为先，致力成为业界信赖的持续稳健增长的区域优质供应链服务商。',
+    en: '<strong>ZJQF Supply & Marketing Co., Ltd.</strong> centres on bulk commodity trading and warehousing logistics, deeply cultivating regional and industry channels. We specialise in the import & export of animal & vegetable oils, industrial oils, wood pulp, feed and agricultural products, together with oil receiving and storage services — guided by integrity and a customer-first approach.',
   },
   about_lead_en: {
-    cn: 'Zhejiang Light Textile Supply & Marketing Co., Ltd. is dedicated to bulk commodity trading — specialising in animal & vegetable oils, wood pulp & waste paper, and industrial oils. Built on integrity, we serve as a trusted partner to our clients.',
-    en: '浙江省轻纺供销有限公司专注大宗商品贸易，以诚信为本，致力成为业界可信赖的合作伙伴。',
+    cn: 'ZJQF Supply & Marketing Co., Ltd. centres on bulk commodity trading and warehousing logistics — specialising in animal & vegetable oils, industrial oils, wood pulp, feed and agricultural products, plus oil receiving and storage. Guided by integrity and a customer-first approach, we strive to be a trusted regional supply-chain service provider delivering sustained, steady growth.',
+    en: '浙江省轻纺供销有限公司以大宗商品贸易和仓储物流为核心，以诚信为本、客户为先，致力成为业界信赖的持续稳健增长的区域优质供应链服务商。',
   },
   stat1: { cn: '年行业经验<br>Years Experience', en: 'Years of<br>Experience' },
   stat2: { cn: '核心业务领域<br>Core Areas',     en: 'Core Business<br>Areas' },
@@ -176,7 +176,7 @@ const i18n = {
   qr_lbl:        { cn: '扫码关注公众号<br>Scan to Follow WeChat Official Account', en: 'Scan to Follow<br>WeChat Official Account' },
   brand_name:    { cn: '浙江省轻纺供销有限公司', en: 'ZJQF Supply & Marketing Co., Ltd.' },
   brand_name_en: { cn: 'Zhejiang Light Textile Supply & Marketing Co., Ltd.', en: '浙江省轻纺供销有限公司' },
-  brand_slogan:  { cn: '追求卓越，永攀高峰<br>Pursuing Excellence · Reaching New Heights', en: 'Pursuing Excellence · Reaching New Heights<br>追求卓越，永攀高峰' },
+  brand_slogan:  { cn: '守正拓新，共赢致远<br>Integrity &amp; Innovation · Win-Win for the Future', en: 'Integrity &amp; Innovation · Win-Win for the Future<br>守正拓新，共赢致远' },
 
   /* Dongfang page */
   df_banner_en:   { cn: 'Dongfang Oils · Company Overview', en: '东方油脂 · 公司概况' },
@@ -187,8 +187,8 @@ const i18n = {
   df_intro_lbl:    { cn: '公司简介', en: 'Overview' },
   df_intro_lbl_en: { cn: 'Company Overview', en: '公司简介' },
   df_p1: {
-    cn: '<strong>嘉兴市乍浦东方油脂有限公司</strong>是由浙江省轻纺供销有限公司控股的全资子公司，1998年收购原日本伊藤忠嘉兴喜爱油脂公司后组建，注册资金1000万元，占地面积52亩，位于浙江省嘉兴市乍浦滨海大道1371号。',
-    en: '<strong>Jiaxing Zhapu Dongfang Oils Co., Ltd.</strong> is a wholly-owned subsidiary of ZJQF, established in 1998 following the acquisition of the former Japanese joint venture Itochu Jiaxing Oils. Registered capital RMB 10 million, occupying 52 mu at 1371 Binhai Avenue, Zhapu, Jiaxing, Zhejiang.',
+    cn: '<strong>嘉兴市乍浦东方油脂有限公司</strong>是由浙江省轻纺供销有限公司控股的全资子公司，注册资金1000万元，占地面积52亩，位于浙江省嘉兴市乍浦滨海大道1371号。',
+    en: '<strong>Jiaxing Zhapu Dongfang Oils Co., Ltd.</strong> is a wholly-owned subsidiary of ZJQF, with registered capital of RMB 10 million, occupying 52 mu at 1371 Binhai Avenue, Zhapu, Jiaxing, Zhejiang.',
   },
   df_p2: {
     cn: '公司主要从事动植物油脂及农副产品、纸、纸浆、化工原料等的销售及货运仓储业务，为客户提供一站式仓储接运解决方案。公司年接储油脂能力在50万吨以上，是国内最具规模的油脂储运企业之一。',
@@ -256,8 +256,8 @@ const i18n = {
 
   /* About page – culture */
   cult1_lbl: { cn: '企业精神', en: 'Corporate Spirit' },
-  cult1_val: { cn: '追求卓越、勇攀高峰', en: 'Pursue Excellence · Reach New Heights' },
-  cult1_en:  { cn: 'Pursue Excellence · Reach New Heights', en: '追求卓越、勇攀高峰' },
+  cult1_val: { cn: '守正拓新、共赢致远', en: 'Integrity & Innovation · Win-Win for the Future' },
+  cult1_en:  { cn: 'Integrity & Innovation · Win-Win for the Future', en: '守正拓新、共赢致远' },
   cult2_lbl: { cn: '企业宗旨', en: 'Corporate Mission' },
   cult2_val: { cn: '爱岗敬业、开拓进取\n求实创新、放眼未来', en: 'Dedicated & Professional\nInnovative & Forward-Looking' },
   cult2_en:  { cn: 'Dedicated · Progressive · Innovative · Forward-Looking', en: '爱岗敬业 · 开拓进取 · 求实创新 · 放眼未来' },
