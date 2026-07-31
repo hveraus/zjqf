@@ -70,7 +70,7 @@ const i18n = {
 
   /* Wood pulp product page */
   pulp_banner_en: { cn: 'Wood Pulp · Products', en: '纸浆 · 产品介绍' },
-  pulp_intro:     { cn: '公司主营进口漂白硫酸盐针叶木浆，货源覆盖加拿大、智利等主要产区，涵盖虹鱼、凯利普、银星等知名品牌，纤维长、强度高、白度稳定，为造纸企业提供优质稳定的长纤维原料供应。', en: 'We specialise in imported bleached softwood kraft pulp sourced from major regions including Canada and Chile — covering renowned brands such as Arauco, Clearwater and Silver Star. With long fibres, high strength and stable brightness, we provide reliable, high-quality long-fibre feedstock to paper mills.' },
+  pulp_intro:     { cn: '公司目前经营的纸浆主要以针叶浆为主，阔叶浆为辅。货源覆盖加拿大、美国、智利等主要产区，为造纸企业及无纺布企业提供优质稳定的原料供应，并建立了长期稳定的合作伙伴关系。', en: 'Our pulp business is led by softwood pulp and complemented by hardwood pulp, with supply sourced from major regions including Canada, the United States and Chile. We provide reliable, high-quality raw materials to paper mills and non-woven fabric manufacturers, having established long-term, stable partnerships.' },
   pulp_brand_lbl:    { cn: '核心品牌', en: 'Featured Brands' },
   pulp_brand_lbl_en: { cn: 'Featured Brands', en: '核心品牌' },
   pulp_cat_lbl:      { cn: '产品与品类', en: 'Products & Categories' },
@@ -241,8 +241,8 @@ const i18n = {
 
   /* About page – intro */
   intro_p1: {
-    cn: '浙江省轻纺供销有限公司成立于1973年，由浙江省第一轻工业局生产组分支演变而来，2001年改制为国有控股的有限责任制公司。公司是一家具有自营进出口经营权，集贸易、储运、加工为一体的大型综合性商贸流通企业，公司总部位于杭州，在嘉兴设有全资子公司。经过三十多年、几代人的辛勤努力，公司已在国内外建立了广泛的进出口物资贸易渠道和营销网络，具有独立的油脂生产加工、储运基地。',
-    en: 'Founded in December 1973 as a branch of the Production Division of Zhejiang Province\'s First Light Industry Bureau, ZJQF was restructured in 2001 into a state-controlled limited liability company, now under the holding of Shenghua Group Holdings Co., Ltd. The company is a large comprehensive trading and logistics enterprise with its own import & export rights, operating across trading, warehousing, and processing. It has four holding subsidiaries in Hong Kong, Hangzhou, Shanghai, and Jiaxing.',
+    cn: '浙江省轻纺供销有限公司成立于1973年，由浙江省第一轻工业局生产组分支演变而来，2001年改制为国有控股的有限责任制公司。公司是一家具有自营进出口经营权，集贸易、储运、加工为一体的大型综合性商贸流通企业，公司总部位于杭州，在嘉兴设有全资子公司。经过五十多年、几代人的辛勤努力，公司已在国内外建立了广泛的进出口物资贸易渠道和营销网络，具有独立的油脂生产加工、储运基地。',
+    en: 'Founded in 1973 as a branch of the Production Division of Zhejiang Province\'s First Light Industry Bureau, ZJQF was restructured in 2001 into a state-controlled limited liability company. It is a large comprehensive trading and logistics enterprise with its own import & export rights, integrating trading, warehousing and processing, headquartered in Hangzhou with a wholly-owned subsidiary in Jiaxing. Through more than five decades of dedication across generations, the company has established extensive import & export trade channels and marketing networks at home and abroad, along with independent oil production, processing and storage bases.',
   },
   intro_img_cap: { cn: '浙江省轻纺供销有限公司 办公环境', en: 'ZJQF Office Environment' },
   intro_p2: {
