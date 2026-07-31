@@ -7,7 +7,7 @@ const i18n = {
   nav_dongfang: { cn: '东方公司', en: 'Dongfang Co.' },
 
   /* Hero */
-  hero_badge:  { cn: '浙江省轻纺供销有限公司 · 浙江，中国', en: 'ZJQF Supply & Marketing · Zhejiang, China' },
+  hero_badge:  { cn: '浙江省轻纺供销有限公司 · 浙江，中国', en: 'ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD. · Zhejiang, China' },
   hero_slogan: { cn: '守正拓新<br><em>共赢致远</em>', en: 'Integrity &<br><em>Innovation</em>' },
   hero_sub:    { cn: 'Integrity &amp; Innovation · Win-Win for the Future', en: 'Win-Win for the Future · 守正拓新，共赢致远' },
   hero_btn1:   { cn: '了解业务&ensp;OUR BUSINESS', en: 'Our Business' },
@@ -20,10 +20,10 @@ const i18n = {
   about_title_en: { cn: 'Focused Trading · Committed to Growth', en: '专注贸易 · 致力发展' },
   about_lead: {
     cn: '<strong>浙江省轻纺供销有限公司</strong>以大宗商品贸易和仓储物流为核心，深耕区域与行业渠道，专注动植物油脂、工业油脂、木浆、饲料、农副产品进出口贸易及油脂产品接卸储存业务，以诚信为本，客户为先，致力成为业界信赖的持续稳健增长的区域优质供应链服务商。',
-    en: '<strong>ZJQF Supply & Marketing Co., Ltd.</strong> centres on bulk commodity trading and warehousing logistics, deeply cultivating regional and industry channels. We specialise in the import & export of animal & vegetable oils, industrial oils, wood pulp, feed and agricultural products, together with oil receiving and storage services — guided by integrity and a customer-first approach.',
+    en: '<strong>ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD.</strong> centres on bulk commodity trading and warehousing logistics, deeply cultivating regional and industry channels. We specialise in the import & export of animal & vegetable oils, industrial oils, wood pulp, feed and agricultural products, together with oil receiving and storage services — guided by integrity and a customer-first approach.',
   },
   about_lead_en: {
-    cn: 'ZJQF Supply & Marketing Co., Ltd. centres on bulk commodity trading and warehousing logistics — specialising in animal & vegetable oils, industrial oils, wood pulp, feed and agricultural products, plus oil receiving and storage. Guided by integrity and a customer-first approach, we strive to be a trusted regional supply-chain service provider delivering sustained, steady growth.',
+    cn: 'ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD. centres on bulk commodity trading and warehousing logistics — specialising in animal & vegetable oils, industrial oils, wood pulp, feed and agricultural products, plus oil receiving and storage. Guided by integrity and a customer-first approach, we strive to be a trusted regional supply-chain service provider delivering sustained, steady growth.',
     en: '浙江省轻纺供销有限公司以大宗商品贸易和仓储物流为核心，以诚信为本、客户为先，致力成为业界信赖的持续稳健增长的区域优质供应链服务商。',
   },
   stat1: { cn: '年行业经验<br>Years Experience', en: 'Years of<br>Experience' },
@@ -171,11 +171,11 @@ const i18n = {
   c_tel_lbl:     { cn: '联系电话 · Phone', en: 'Phone' },
   c_email_lbl:   { cn: '电子邮箱 · Email', en: 'Email' },
   c_company_lbl: { cn: '公司名称 · Company',               en: 'Company' },
-  c_company_val: { cn: '浙江省轻纺供销有限公司',            en: 'Zhejiang Light Textile Supply & Marketing Co., Ltd.' },
-  c_company_en:  { cn: 'Zhejiang Light Textile Supply & Marketing Co., Ltd.', en: '浙江省轻纺供销有限公司' },
+  c_company_val: { cn: '浙江省轻纺供销有限公司',            en: 'ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD.' },
+  c_company_en:  { cn: 'ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD.', en: '浙江省轻纺供销有限公司' },
   qr_lbl:        { cn: '扫码关注公众号<br>Scan to Follow WeChat Official Account', en: 'Scan to Follow<br>WeChat Official Account' },
-  brand_name:    { cn: '浙江省轻纺供销有限公司', en: 'ZJQF Supply & Marketing Co., Ltd.' },
-  brand_name_en: { cn: 'Zhejiang Light Textile Supply & Marketing Co., Ltd.', en: '浙江省轻纺供销有限公司' },
+  brand_name:    { cn: '浙江省轻纺供销有限公司', en: 'ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD.' },
+  brand_name_en: { cn: 'ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD.', en: '浙江省轻纺供销有限公司' },
   brand_slogan:  { cn: '守正拓新，共赢致远<br>Integrity &amp; Innovation · Win-Win for the Future', en: 'Integrity &amp; Innovation · Win-Win for the Future<br>守正拓新，共赢致远' },
 
   /* Dongfang page */
@@ -221,11 +221,11 @@ const i18n = {
   df_company_val: { cn: '嘉兴市乍浦东方油脂有限公司', en: 'Jiaxing Zhapu Dongfang Oils Co., Ltd.' },
   df_addr_val:    { cn: '浙江省嘉兴市乍浦滨海大道1371号', en: '1371 Binhai Ave, Zhapu, Jiaxing, Zhejiang' },
   df_rep_lbl:     { cn: '法人代表 · Legal Rep', en: 'Legal Representative' },
-  df_rep_val:     { cn: '夏浩', en: 'Xia Hao' },
+  df_rep_val:     { cn: '夏先生', en: 'Mr. Xia' },
   df_map_hint:    { cn: '浙江省嘉兴市乍浦滨海大道1371号', en: '1371 Binhai Ave, Zhapu, Jiaxing' },
 
   /* Footer */
-  footer_copy: { cn: '© 2024 浙江省轻纺供销有限公司. All Rights Reserved.', en: '© 2024 ZJQF Supply & Marketing Co., Ltd. All Rights Reserved.' },
+  footer_copy: { cn: '© 2024 浙江省轻纺供销有限公司. All Rights Reserved.', en: '© 2024 ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD. All Rights Reserved.' },
   footer_addr: { cn: '浙江省杭州市上城区凯旋路445号', en: '445 Kaixuan Rd, Hangzhou, Zhejiang, China' },
 
   /* About page – banner & tabs */
@@ -275,12 +275,13 @@ const i18n = {
   tl4: { cn: '公司在上海设立"浙江省轻纺产品经销服务公司"。', en: 'Established "Zhejiang Light Textile Products Sales & Service Company" in Shanghai.' },
   tl5: { cn: '公司改名为浙江省轻纺工业供销公司。', en: 'Renamed "Zhejiang Light Textile Industry Supply & Marketing Company".' },
   tl6: { cn: '获得自营进出口经营权，正式开展国际贸易业务。', en: 'Obtained independent import & export operating rights, formally launching international trade operations.' },
-  tl7: { cn: '改制为国有控股的有限责任制公司，现由升华集团控股有限公司控股，更名为浙江省轻纺供销有限公司。', en: 'Restructured into a state-controlled limited liability company under Shenghua Group Holdings Co., Ltd., renamed ZJQF Supply & Marketing Co., Ltd.' },
+  tl7: { cn: '改制为国有控股的有限责任制公司，现由升华集团控股有限公司控股，更名为浙江省轻纺供销有限公司。', en: 'Restructured into a state-controlled limited liability company under Shenghua Group Holdings Co., Ltd., renamed ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD.' },
   tl8: { cn: '公司持续深耕大宗商品贸易领域，业务规模稳步扩大，在动植物油脂、木浆废纸及工业油脂等领域保持行业领先地位。', en: 'Continuing to deepen its presence in bulk commodity trading, with steadily expanding business scale and industry-leading position in animal & vegetable oils, wood pulp & waste paper, and industrial oils.' },
 
   /* About page – contact */
   c_biz_contact_lbl:  { cn: '业务联系 · Business Contact', en: 'Business Contact' },
-  c_biz_contact_name: { cn: '郭经理', en: 'Manager Guo' },
+  c_biz_contact_name:  { cn: '赵先生', en: 'Mr. Zhao' },
+  c_biz_contact_name2: { cn: '郭女士', en: 'Ms. Guo' },
   map_hint: { cn: '浙江省杭州市上城区凯旋路445号', en: '445 Kaixuan Rd, Shangcheng District, Hangzhou' },
 };
 
