@@ -220,7 +220,7 @@ const i18n = {
   df_band_sub:   { cn: '一站式仓储接运解决方案 · 年接储能力50万吨以上', en: 'One-Stop Warehousing & Transfer · 500,000+ Tonnes Annual Capacity' },
   df_company_val: { cn: '嘉兴市乍浦东方油脂有限公司', en: 'Jiaxing Zhapu Dongfang Oils Co., Ltd.' },
   df_addr_val:    { cn: '浙江省嘉兴市乍浦滨海大道1371号', en: '1371 Binhai Ave, Zhapu, Jiaxing, Zhejiang' },
-  df_rep_lbl:     { cn: '法人代表 · Legal Rep', en: 'Legal Representative' },
+  df_rep_lbl:     { cn: '总经理 · General Manager', en: 'General Manager' },
   df_rep_val:     { cn: '夏先生', en: 'Mr. Xia' },
   df_map_hint:    { cn: '浙江省嘉兴市乍浦滨海大道1371号', en: '1371 Binhai Ave, Zhapu, Jiaxing' },
 
