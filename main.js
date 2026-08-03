@@ -16,8 +16,8 @@ const i18n = {
 
   /* Homepage – About section */
   about_tag:      { cn: '关于轻纺 · About Us',                  en: 'About Us · ZJQF' },
-  about_title:    { cn: '专注贸易<br>致力发展',                  en: 'Focused Trading<br>Committed to Growth' },
-  about_title_en: { cn: 'Focused Trading · Committed to Growth', en: '专注贸易 · 致力发展' },
+  about_title:    { cn: '务实坚韧<br>专业精进',                  en: 'Pragmatic &amp; Resilient<br>Professional &amp; Advancing' },
+  about_title_en: { cn: 'Pragmatic &amp; Resilient · Professional &amp; Advancing', en: '务实坚韧 · 专业精进' },
   about_lead: {
     cn: '<strong>浙江省轻纺供销有限公司</strong>以大宗商品贸易和仓储物流为核心，深耕区域与行业渠道，专注动植物油脂、工业油脂、木浆、饲料、农副产品进出口贸易及油脂产品接卸储存业务，以诚信为本，客户为先，致力成为业界信赖的持续稳健增长的区域优质供应链服务商。',
     en: '<strong>ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD.</strong> centres on bulk commodity trading and warehousing logistics, deeply cultivating regional and industry channels. We specialise in the import & export of animal & vegetable oils, industrial oils, wood pulp, feed and agricultural products, together with oil receiving and storage services — guided by integrity and a customer-first approach.',
