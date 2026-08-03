@@ -205,8 +205,8 @@ const i18n = {
   df_f2_title: { cn: '输油管道', en: 'Pipeline System' },
   df_f2_en:    { cn: 'Pipeline System', en: '输油管道' },
   df_f2_desc:  {
-    cn: '建有一条连接液体化工专用嘉港码头的集肤伴热输油管道，管径DN300，长度4000米，码头接卸速度可达每小时300吨以上；另设两条管线直达内河海恒码头，其中一条为不锈钢管线。',
-    en: 'A DN300 skin-effect heat-traced pipeline of 4,000 m connects to Jiagang Wharf, enabling discharge rates exceeding 300 t/h. Two additional pipelines run directly to Haiheng Inland Wharf, one of which is stainless steel.',
+    cn: '公司现有一条管径为DN300、长度为4000米的外海卸油专用管道，与外海液体化工专用码头嘉港石化码头连接；两条管径为DN200的内河卸油专用管道，与内河海恒码头连接；码头上采用自动脱离输油臂，能接卸除危化品以外的各类油品。',
+    en: 'The company operates one dedicated offshore oil-discharge pipeline (DN300, 4,000 m) connected to Jiagang Petrochemical Wharf, the offshore liquid-chemical terminal, and two dedicated inland-river oil-discharge pipelines (DN200) connected to Haiheng Inland Wharf. The wharves use automatic quick-release loading arms, capable of handling all oil products except hazardous chemicals.',
   },
   df_f3_title: { cn: '配套设施', en: 'Support Facilities' },
   df_f3_en:    { cn: 'Support Facilities', en: '配套设施' },
