@@ -275,7 +275,7 @@ const i18n = {
   tl4: { cn: '公司在上海设立"浙江省轻纺产品经销服务公司"。', en: 'Established "Zhejiang Light Textile Products Sales & Service Company" in Shanghai.' },
   tl5: { cn: '公司改名为浙江省轻纺工业供销公司。', en: 'Renamed "Zhejiang Light Textile Industry Supply & Marketing Company".' },
   tl6: { cn: '获得自营进出口经营权，正式开展国际贸易业务。', en: 'Obtained independent import & export operating rights, formally launching international trade operations.' },
-  tl7: { cn: '改制为国有控股的有限责任制公司，现由升华集团控股有限公司控股，更名为浙江省轻纺供销有限公司。', en: 'Restructured into a state-controlled limited liability company under Shenghua Group Holdings Co., Ltd., renamed ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD.' },
+  tl7: { cn: '改制为国有控股的有限责任制公司，由升华集团控股有限公司控股，更名为浙江省轻纺供销有限公司。', en: 'Restructured into a state-controlled limited liability company under Shenghua Group Holdings Co., Ltd., renamed ZHEJIANG PROVINCIAL LIGHT &amp; TEXTILE INDUSTRY SUPPLYING &amp; MARKETING CO.,LTD.' },
   tl8: { cn: '公司持续深耕大宗商品贸易领域，业务规模稳步扩大，在动植物油脂、木浆废纸及工业油脂等领域保持行业领先地位。', en: 'Continuing to deepen its presence in bulk commodity trading, with steadily expanding business scale and industry-leading position in animal & vegetable oils, wood pulp & waste paper, and industrial oils.' },
 
   /* About page – contact */
