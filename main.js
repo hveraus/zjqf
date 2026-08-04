@@ -241,8 +241,8 @@ const i18n = {
 
   /* About page – intro */
   intro_p1: {
-    cn: '浙江省轻纺供销有限公司成立于1973年，由浙江省第一轻工业局生产组分支演变而来，2001年改制为国有控股的有限责任制公司。公司是一家具有自营进出口经营权，集贸易、储运、加工为一体的大型综合性商贸流通企业，公司总部位于杭州，在嘉兴设有全资子公司。经过五十多年、几代人的辛勤努力，公司已在国内外建立了广泛的进出口物资贸易渠道和营销网络，具有独立的油脂生产加工、储运基地。',
-    en: 'Founded in 1973 as a branch of the Production Division of Zhejiang Province\'s First Light Industry Bureau, ZJQF was restructured in 2001 into a state-controlled limited liability company. It is a large comprehensive trading and logistics enterprise with its own import & export rights, integrating trading, warehousing and processing, headquartered in Hangzhou with a wholly-owned subsidiary in Jiaxing. Through more than five decades of dedication across generations, the company has established extensive import & export trade channels and marketing networks at home and abroad, along with independent oil production, processing and storage bases.',
+    cn: '浙江省轻纺供销有限公司成立于1973年，由浙江省第一轻工业局生产组分支演变而来，2001年改制为国有控股的有限责任制公司。公司是一家具有自营进出口经营权，集贸易、储运、加工为一体的大型综合性商贸流通企业，公司总部位于杭州，在嘉兴设有全资子公司。经过五十多年、几代人的辛勤努力，公司已在国内外建立了广泛的进出口物资贸易渠道和营销网络，具有独立的油脂中转、储运基地。',
+    en: 'Founded in 1973 as a branch of the Production Division of Zhejiang Province\'s First Light Industry Bureau, ZJQF was restructured in 2001 into a state-controlled limited liability company. It is a large comprehensive trading and logistics enterprise with its own import & export rights, integrating trading, warehousing and processing, headquartered in Hangzhou with a wholly-owned subsidiary in Jiaxing. Through more than five decades of dedication across generations, the company has established extensive import & export trade channels and marketing networks at home and abroad, along with independent oil transfer and storage bases.',
   },
   intro_img_cap: { cn: '浙江省轻纺供销有限公司 办公环境', en: 'ZJQF Office Environment' },
   intro_p2: {
